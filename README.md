@@ -14,8 +14,8 @@ This package was developed for animating several aspects of a Revit model:
 - ...
  
 ##Installation
-Installation is simple - just use Dynamo's built-in package manager and search for ```Dynanimator```.
-Please note that this package has dependencies - during installation it will also install the package ```Clockwork```.
+This package will soon be made available through Dynamo's package manager. At that point, Installation will be simple - just use Dynamo's built-in package manager and search for ```Dynanimator```.
+Please note that this package will have dependencies - currently, during installation it will also install the package ```Clockwork```. There may be more dependencies in the future.
 
 ##Collaborate
 If you have an idea about animating other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/andydandy74/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/).
