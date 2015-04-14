@@ -1,5 +1,5 @@
 #Dynanimator
-An animation package for the Dynamo visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com).
+An animation package for the Dynamo visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com). Find more information and some nice animations in [this blog post](http://vasshaug.net/2014/12/18/animate-design-iterations-in-revit-with-dynamo/) by [Håvard Vasshaug](https://github.com/vasshaug).
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
