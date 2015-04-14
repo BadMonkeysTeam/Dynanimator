@@ -1,0 +1,41 @@
+<Workspace Version="0.7.5.3566" X="303.971719996756" Y="354.154581530567" zoom="0.683531558214683" Description="" Category="" Name="Home">
+  <Elements>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="06d78b31-2c10-44e1-b74d-daac0bd6c8c7" nickname="Views" x="-246.762352943558" y="81.7403870045061" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="25:{3D}" />
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" nickname="Directory Path" x="-260.335635915678" y="-48.8985377863385" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\Users\adieckmann\Desktop</System.String>
+    </DSCore.File.Directory>
+    <Dynamo.Nodes.IntegerSlider type="Dynamo.Nodes.IntegerSlider" guid="04d34a57-9004-49ed-a5de-e5294a899ac7" nickname="Integer Slider" x="-252.354509066107" y="-234.257956060039" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Int32>10</System.Int32>
+      <Range min="0" max="100" />
+    </Dynamo.Nodes.IntegerSlider>
+    <Dynamo.Nodes.DSModelElementsSelection type="Dynamo.Nodes.DSModelElementsSelection" guid="59a59450-6564-4049-8ad9-9de87b717c87" nickname="Select Model Elements" x="-260.156058167505" y="160.917606986945" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <instance id="39eb6052-516b-4359-82b3-86e4f3bcf64e-0004a66d" />
+    </Dynamo.Nodes.DSModelElementsSelection>
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="ad869c93-354a-463c-bd74-416d70020e80" nickname="Code Block" x="-189" y="273" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0;&#xA;100;" ShouldFocus="false" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="b2492f2c-eefb-4394-a766-0481e6654d87" nickname="Dynanimate Element Transparency" x="144.270622855768" y="-62.9834177070766" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="9bfd1a4e-0d45-4869-ad30-652d3f73d183" />
+      <Name value="Dynanimate Element Transparency" />
+      <Description value="Animates the transparency of a selection of elements in a given view." />
+      <Inputs>
+        <Input value="Iterations" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="Elements" />
+        <Input value="Min. Transparency" />
+        <Input value="Max. Transparency" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="06d78b31-2c10-44e1-b74d-daac0bd6c8c7" start_index="0" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" start_index="0" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="04d34a57-9004-49ed-a5de-e5294a899ac7" start_index="0" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="59a59450-6564-4049-8ad9-9de87b717c87" start_index="0" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ad869c93-354a-463c-bd74-416d70020e80" start_index="0" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ad869c93-354a-463c-bd74-416d70020e80" start_index="1" end="b2492f2c-eefb-4394-a766-0481e6654d87" end_index="5" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>

@@ -1,0 +1,47 @@
+<Workspace Version="0.7.5.3566" X="47.6860295457972" Y="299.040787629909" zoom="0.833362792390242" Description="" Category="" Name="Home">
+  <Elements>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="06d78b31-2c10-44e1-b74d-daac0bd6c8c7" nickname="Views" x="2.28861154446179" y="223.280811232449" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="24:Dynanimator_Perspective_View" />
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" nickname="Directory Path" x="0" y="120" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\Users\adieckmann\Desktop</System.String>
+    </DSCore.File.Directory>
+    <Dynamo.Nodes.IntegerSlider type="Dynamo.Nodes.IntegerSlider" guid="04d34a57-9004-49ed-a5de-e5294a899ac7" nickname="Integer Slider" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Int32>10</System.Int32>
+      <Range min="0" max="100" />
+    </Dynamo.Nodes.IntegerSlider>
+    <Dynamo.Nodes.DSModelElementSelection type="Dynamo.Nodes.DSModelElementSelection" guid="e1c6af84-46a4-4b7f-9016-e6da8e6547c1" nickname="Select Model Element" x="0" y="424" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <instance id="39eb6052-516b-4359-82b3-86e4f3bcf64e-0004a7f5" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="d349f31b-4da4-41ca-9d58-be0d6ba0a3d9" nickname="Element.Geometry" x="347" y="423.833073322933" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.Geometry" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="3c5ad41a-b935-4e32-a483-31909c681a6a" nickname="List.FirstItem" x="589" y="423.833073322933" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.FirstItem@var[]..[]" />
+    <Dynamo.Nodes.DSModelElementSelection type="Dynamo.Nodes.DSModelElementSelection" guid="21294180-4585-40c0-8a4a-80a7a72c9432" nickname="Select Model Element" x="3.43291731669262" y="305.379875195008" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <instance id="145a5078-7555-4dad-85d0-126e2cebc190-0004aa68" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="549f8c6c-dbc0-404c-825b-b209eed46c05" nickname="FamilyInstance.Location" x="349.840093603744" y="306.678627145086" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.FamilyInstance.Location" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" nickname="Dynanimate Target Position With Fixed Camera Position" x="781.434720971355" y="149.349976342157" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="aae03573-4a03-477e-abce-6b39e1979def" />
+      <Name value="Dynanimate Target Position With Fixed Camera Position" />
+      <Description value="Animates the target position of a perspective view with a fixed camera position." />
+      <Inputs>
+        <Input value="Iterations" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="Camera Position" />
+        <Input value="Target Path" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="06d78b31-2c10-44e1-b74d-daac0bd6c8c7" start_index="0" end="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" start_index="0" end="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="04d34a57-9004-49ed-a5de-e5294a899ac7" start_index="0" end="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e1c6af84-46a4-4b7f-9016-e6da8e6547c1" start_index="0" end="d349f31b-4da4-41ca-9d58-be0d6ba0a3d9" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d349f31b-4da4-41ca-9d58-be0d6ba0a3d9" start_index="0" end="3c5ad41a-b935-4e32-a483-31909c681a6a" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3c5ad41a-b935-4e32-a483-31909c681a6a" start_index="0" end="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="21294180-4585-40c0-8a4a-80a7a72c9432" start_index="0" end="549f8c6c-dbc0-404c-825b-b209eed46c05" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="549f8c6c-dbc0-404c-825b-b209eed46c05" start_index="0" end="0ca8c338-5aaf-4df5-a093-85c66b8ba34b" end_index="3" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
