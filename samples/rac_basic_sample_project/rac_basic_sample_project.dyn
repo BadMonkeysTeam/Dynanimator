@@ -1,0 +1,54 @@
+<Workspace Version="0.8.0.950" X="324.907282571914" Y="78.8594706301233" zoom="1.08419429479562" Name="Home" RunType="Manual" RunPeriod="100" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Nodes.Function guid="623d0e62-20b8-4bea-81ad-04a40d68569c" type="Dynamo.Nodes.Function" nickname="DynanimatorFunction Numeric Parameter" x="601.452522255193" y="232.183976261128" isVisible="true" isUpstreamVisible="true" lacing="Shortest">
+      <ID value="0e7adf7f-ccda-4eae-9c86-6713dcb83dcd" />
+      <Name value="DynanimatorFunction Numeric Parameter" />
+      <Description value="Helper function for Dynanimate Numeric Parameter" />
+      <Inputs>
+        <Input value="Iteration" />
+        <Input value="Total Iterations" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="Elements" />
+        <Input value="Parameter Name" />
+        <Input value="Min Param Value" />
+        <Input value="Max Param Value" />
+      </Inputs>
+      <Outputs>
+        <Output value="func" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <DSRevitNodesUI.FamilyTypes guid="90719baa-a190-4d9b-9f9b-ee7c1c1e62bc" type="DSRevitNodesUI.FamilyTypes" nickname="Family Types" x="-272.005934718101" y="316.353857566766" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="83:Single Window:Standard" />
+    <DSCore.File.Directory guid="3ce5eed9-0001-47ec-82bd-0710bf0b9a43" type="DSCore.File.Directory" nickname="Directory Path" x="97.166172106825" y="144.370919881306" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\img</System.String>
+    </DSCore.File.Directory>
+    <DSRevitNodesUI.Views guid="ea4904f6-b2d9-4254-b89a-13fc7f6df66f" type="DSRevitNodesUI.Views" nickname="Views" x="51.166172106825" y="230.79703264095" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="17:From Yard" />
+    <Dynamo.Nodes.StringInput guid="a7aa32e2-18ce-45c4-b41c-ab40defcc649" type="Dynamo.Nodes.StringInput" nickname="String" x="123.166172106825" y="376.649258160237" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>Height</System.String>
+      <System.String value="Height" />
+    </Dynamo.Nodes.StringInput>
+    <DSCore.Map guid="834cf90d-ce14-44e4-add0-15c7d8ce9aef" type="DSCore.Map" nickname="List.Map" x="1026.39415026183" y="535.880632466181" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <DSRevitNodesUI.ElementsOfFamilyType guid="d9ee5e35-2094-43ed-9f47-b83852341f93" type="DSRevitNodesUI.ElementsOfFamilyType" nickname="All Elements of Family Type" x="6.166172106825" y="316.223145400594" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="50e790fc-90d9-42cf-947c-cfe01db08172" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="119.166172106825" y="437.075370919881" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1200;&#xA;2700;" ShouldFocus="false" />
+    <DSCoreNodesUI.Input.IntegerSlider guid="6fd36e76-8dc5-44b4-9cbe-2c5dceecf363" type="DSCoreNodesUI.Input.IntegerSlider" nickname="Integer Slider" x="-107.833827893175" y="532.501483679525" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Int32>25</System.Int32>
+      <Range min="1" max="50" step="1" />
+    </DSCoreNodesUI.Input.IntegerSlider>
+    <Dynamo.Nodes.CodeBlockNodeModel guid="76aa8853-58c0-4e0c-ba35-f0fdb30cfac6" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="434.722268406951" y="535.880632466181" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1..n..#n;" ShouldFocus="false" />
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="623d0e62-20b8-4bea-81ad-04a40d68569c" start_index="0" end="834cf90d-ce14-44e4-add0-15c7d8ce9aef" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="90719baa-a190-4d9b-9f9b-ee7c1c1e62bc" start_index="0" end="d9ee5e35-2094-43ed-9f47-b83852341f93" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3ce5eed9-0001-47ec-82bd-0710bf0b9a43" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ea4904f6-b2d9-4254-b89a-13fc7f6df66f" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a7aa32e2-18ce-45c4-b41c-ab40defcc649" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d9ee5e35-2094-43ed-9f47-b83852341f93" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="50e790fc-90d9-42cf-947c-cfe01db08172" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="6" portType="0" />
+    <Dynamo.Models.ConnectorModel start="50e790fc-90d9-42cf-947c-cfe01db08172" start_index="1" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="7" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6fd36e76-8dc5-44b4-9cbe-2c5dceecf363" start_index="0" end="623d0e62-20b8-4bea-81ad-04a40d68569c" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6fd36e76-8dc5-44b4-9cbe-2c5dceecf363" start_index="0" end="76aa8853-58c0-4e0c-ba35-f0fdb30cfac6" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="76aa8853-58c0-4e0c-ba35-f0fdb30cfac6" start_index="0" end="834cf90d-ce14-44e4-add0-15c7d8ce9aef" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
