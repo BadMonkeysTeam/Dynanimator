@@ -11,7 +11,7 @@ This package was developed for animating several aspects of a Revit model:
 - Camera (and target) position of perspective views [done]
 - Sun position [planned]
 - Displacement sets [under review]
-- Phases [planned]
+- Phases [done]
 - Combinations of the above [partially done]
 - ...
  
