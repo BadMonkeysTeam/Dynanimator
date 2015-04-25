@@ -1,0 +1,67 @@
+<Workspace Version="0.7.5.3566" X="117.228837624005" Y="248.330726315277" zoom="0.764761018063715" Description="Helper function for Dynanimate Phases" Category="Dynanimator.Functions" Name="DynanimatorFunction Phases" ID="578bb0ef-e4f1-4d49-bd0a-68e7ac9a0b05">
+  <Elements>
+    <Dynamo.Nodes.StringInput type="Dynamo.Nodes.StringInput" guid="85b7d8a7-4615-4107-8bba-7cc1cedc11b8" nickname="String" x="648.594081601368" y="245.483541403961" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String value="\" />
+    </Dynamo.Nodes.StringInput>
+    <Dynamo.Nodes.StringInput type="Dynamo.Nodes.StringInput" guid="cbd45a50-1fc9-40ec-82b6-dc6f18d2ad70" nickname="String" x="653.380360699886" y="561.251327347407" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String value=".png" />
+    </Dynamo.Nodes.StringInput>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="c81949eb-48f1-4f4a-bfb9-d44d6b0c04fb" nickname="View.ExportAsImage" x="956.698937914757" y="113.601938885242" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Views.View.ExportAsImage@string" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="be78d512-9c46-4262-ad0e-c024a7a2b94c" nickname="Transaction.End" x="1149.69520797324" y="94.7954250445759" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="1147.47244614865" y="-10.7917067028301" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="150.039240609328" y="62.0397759412039" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Phase Index" />
+    </Dynamo.Nodes.Symbol>
+    <DSCoreNodesUI.HigherOrder.ComposeFunctions type="DSCoreNodesUI.HigherOrder.ComposeFunctions" guid="5d351815-51e9-446a-9168-708248c8adec" nickname="Function.Compose" x="1340.86518203062" y="25.0832782872754" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
+    <Dynamo.Nodes.DSVarArgFunction type="Dynamo.Nodes.DSVarArgFunction" guid="59310a85-3b51-412a-bdf5-4e49eec3915e" nickname="String.Concat" x="778.76636408591" y="223.436895174201" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.String.Concat@string[]" inputcount="6" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" nickname="Input" x="178.111544038263" y="-11.371254308228" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Phases" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="69dfa178-6017-48ca-abda-12013a2de812" nickname="Element.Name" x="569.174669786411" y="311.487246563624" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.Name" />
+    <Dynamo.Nodes.StringInput type="Dynamo.Nodes.StringInput" guid="a5254198-e70a-4273-b4ac-53c50edb3b3c" nickname="String" x="651.21517314737" y="400.284848990303" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String value="_" />
+    </Dynamo.Nodes.StringInput>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="577389df-b5eb-4c41-a2a2-5efcccddd21c" nickname="Input" x="588.485369146101" y="172.357162841816" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Directory Path" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" nickname="Input" x="189.467292678976" y="130.441197341591" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="254819c5-3d64-4e81-ae3e-aa0d6ce586db" nickname="View.SetPhase" x="924.857627236821" y="-13.4771881387786" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="d162c180-c7a9-4959-abf5-596735da54c6" />
+      <Name value="View.SetPhase" />
+      <Description value="Sets the phase of a given view" />
+      <Inputs>
+        <Input value="View(s)" />
+        <Input value="Phase" />
+      </Inputs>
+      <Outputs>
+        <Output value="View(s)" />
+        <Output value="Success" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="bb8e544b-b03a-4986-ab45-45e6843c03b8" nickname="Code Block" x="305.995097516421" y="16.0747546707249" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="seq[i];" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="797f8314-74d7-4cee-a357-45573ee6fdd6" nickname="Element.Name" x="569.190963304771" y="469.026484621981" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.Name" />
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="85b7d8a7-4615-4107-8bba-7cc1cedc11b8" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="cbd45a50-1fc9-40ec-82b6-dc6f18d2ad70" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c81949eb-48f1-4f4a-bfb9-d44d6b0c04fb" start_index="0" end="be78d512-9c46-4262-ad0e-c024a7a2b94c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="be78d512-9c46-4262-ad0e-c024a7a2b94c" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="393f6092-449d-456d-bf2d-05a3ef128cb0" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dd9fdaff-303f-48b3-b380-7bf31f55ab00" start_index="0" end="bb8e544b-b03a-4986-ab45-45e6843c03b8" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="59310a85-3b51-412a-bdf5-4e49eec3915e" start_index="0" end="c81949eb-48f1-4f4a-bfb9-d44d6b0c04fb" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" start_index="0" end="bb8e544b-b03a-4986-ab45-45e6843c03b8" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="69dfa178-6017-48ca-abda-12013a2de812" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a5254198-e70a-4273-b4ac-53c50edb3b3c" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="577389df-b5eb-4c41-a2a2-5efcccddd21c" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="c81949eb-48f1-4f4a-bfb9-d44d6b0c04fb" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="69dfa178-6017-48ca-abda-12013a2de812" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="254819c5-3d64-4e81-ae3e-aa0d6ce586db" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="254819c5-3d64-4e81-ae3e-aa0d6ce586db" start_index="0" end="393f6092-449d-456d-bf2d-05a3ef128cb0" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bb8e544b-b03a-4986-ab45-45e6843c03b8" start_index="0" end="254819c5-3d64-4e81-ae3e-aa0d6ce586db" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bb8e544b-b03a-4986-ab45-45e6843c03b8" start_index="0" end="797f8314-74d7-4cee-a357-45573ee6fdd6" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="797f8314-74d7-4cee-a357-45573ee6fdd6" start_index="0" end="59310a85-3b51-412a-bdf5-4e49eec3915e" end_index="4" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
