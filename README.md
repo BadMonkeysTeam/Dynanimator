@@ -13,6 +13,7 @@ This package was developed for animating several aspects of a Revit model:
 - Displacement sets [under review]
 - Phases [done, but unpublished]
 - Combinations of the above [partially done]
+- Design Options [planned]
 - ...
  
 ##Installation
