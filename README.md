@@ -9,11 +9,11 @@ This package was developed for animating several aspects of a Revit model:
 - Element transparency [done]
 - Element surface color [done]
 - Camera (and target) position of perspective views [done]
+- Phases [done]
 - Sun position [planned]
 - Displacement sets [under review]
-- Phases [done, but unpublished]
-- Combinations of the above [partially done]
 - Design Options [planned]
+- Combinations of the above [partially done]
 - ...
  
 ##Installation
@@ -21,7 +21,7 @@ This package is available through Dynamo's package manager, so installation is q
 Please note that this package has dependencies - currently, during installation it will also install the package [Clockwork](https://github.com/CAAD-RWTH/ClockworkForDynamo). There may be more dependencies in the future.
 
 ##Collaborate
-If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/andydandy74/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). There's also a guide that explains how to build your own Dynanimator nodes on the [wiki](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
+If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/BadMonkeysInc/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). There's also a guide that explains how to build your own Dynanimator nodes on the [wiki](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
 
 ##Original Project Team
 - [Julien Benoit](https://github.com/jbenoit44)
