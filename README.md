@@ -10,8 +10,8 @@ This package was developed for animating several aspects of a Revit model:
 - Element surface color [done]
 - Camera (and target) position of perspective views [done]
 - Phases [done]
-- Sun position [planned]
 - Displacement sets [under review]
+- Sun position [planned]
 - Design Options [planned]
 - Combinations of the above [partially done]
 - ...
