@@ -1,33 +1,33 @@
-<Workspace Version="0.7.5.3566" X="-49.3545104267407" Y="234.325032118242" zoom="0.661823499758872" Description="Helper function for Dynanimate Camera Position With Fixed Target" Category="Dynanimator.Functions" Name="DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" ID="81494135-9b91-4fe3-b331-d767f872f13d">
+<Workspace Version="0.7.5.3566" X="-19.3545104267407" Y="294.325032118242" zoom="0.661823499758872" Description="Helper function for Dynanimate Camera Position With Fixed Target" Category="Dynanimator.Functions" Name="DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" ID="81494135-9b91-4fe3-b331-d767f872f13d">
   <Elements>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="be78d512-9c46-4262-ad0e-c024a7a2b94c" nickname="Transaction.End" x="1284.51627899863" y="174.305287444162" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="1311.67759675649" y="72.1751062358686" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="104.262852595121" y="-12.3980608330252" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="333.931336798809" y="-229.978730078624" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Iteration" />
     </Dynamo.Nodes.Symbol>
     <DSCoreNodesUI.HigherOrder.ComposeFunctions type="DSCoreNodesUI.HigherOrder.ComposeFunctions" guid="5d351815-51e9-446a-9168-708248c8adec" nickname="Function.Compose" x="1475.68625305601" y="104.593140686862" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" nickname="Input" x="69.2992957856924" y="-75.3483068491614" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" nickname="Input" x="294.434849380097" y="-169.02887277435" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Total Iterations" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="3e187c06-85c2-4ec6-a7ce-210c7609f820" nickname="Input" x="448.506620088862" y="183.737486177256" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="3e187c06-85c2-4ec6-a7ce-210c7609f820" nickname="Input" x="289.854048763946" y="312.17052010695" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Directory Path" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="2cd3c851-8097-4da8-a2c1-cc5ebcf4ca59" nickname="Input" x="124.157691529289" y="203.515013874187" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="2cd3c851-8097-4da8-a2c1-cc5ebcf4ca59" nickname="Input" x="343.249337644649" y="374.255400157192" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="View" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fabba62d-5be2-4a0f-94e9-b9229b322075" nickname="Input" x="367.585190365827" y="-359.620531126841" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fabba62d-5be2-4a0f-94e9-b9229b322075" nickname="Input" x="326.788814882277" y="-104.265440137214" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Elements" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="7f0dc252-b873-4312-bd8b-2a693938c4c4" nickname="Input" x="322.502676916695" y="-292.611683133134" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="7f0dc252-b873-4312-bd8b-2a693938c4c4" nickname="Input" x="281.706301433145" y="-37.2565921435072" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Parameter Name" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="c9a1c0d4-8d75-4727-b87e-28e1e8f88e66" nickname="Input" x="324.270605167943" y="-226.74046604061" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="c9a1c0d4-8d75-4727-b87e-28e1e8f88e66" nickname="Input" x="291.029114033199" y="21.0597406002113" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Min Param Value" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="93379755-39f8-4622-ba37-0c751db4e75a" nickname="Input" x="319.777472382836" y="-156.320272615193" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="93379755-39f8-4622-ba37-0c751db4e75a" nickname="Input" x="278.981096899286" y="99.0348183744338" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Max Param Value" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="9d419817-84a6-431d-a141-6ac4bbe93c73" nickname="DynanimatorNestedFunction Numeric Parameter And Camera Position With Fixed Target" x="603.659460961936" y="-180.382444354837" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="9d419817-84a6-431d-a141-6ac4bbe93c73" nickname="DynanimatorNestedFunction Numeric Parameter And Camera Position With Fixed Target" x="636.90095209668" y="-168.294629396748" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="46b76295-ee66-4255-99f7-953ad50b886d" />
       <Name value="DynanimatorNestedFunction Numeric Parameter And Camera Position With Fixed Target" />
       <Description value="Nested function used in DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" />
@@ -46,10 +46,10 @@
         <Output value="list" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9951599f-db1a-4e44-be10-628d64a2cd54" nickname="Input" x="92.5968735447887" y="339.537848602012" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9951599f-db1a-4e44-be10-628d64a2cd54" nickname="Input" x="301.111681571821" y="170.308439188768" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Camera Path" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="f63a7d47-4277-4343-8332-4e3ab12810da" nickname="Input" x="90.1504269997228" y="407.343038713534" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="f63a7d47-4277-4343-8332-4e3ab12810da" nickname="Input" x="298.665235026756" y="238.11362930029" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Target Position" />
     </Dynamo.Nodes.Symbol>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="94cbff40-1a6f-4637-a1ac-a902a0bf49b8" nickname="DynanimatorFunctionHelper ExportAsImage" x="767.836380297769" y="179.795093328093" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
@@ -57,7 +57,7 @@
       <Name value="DynanimatorFunctionHelper ExportAsImage" />
       <Description value="Exports Current Iteration Step as Image" />
       <Inputs>
-        <Input value="Iteration" />
+        <Input value="NameSuffix (opt)" />
         <Input value="Directory Path" />
         <Input value="view" />
       </Inputs>

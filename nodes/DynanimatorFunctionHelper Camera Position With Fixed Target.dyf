@@ -1,0 +1,50 @@
+<Workspace Version="0.7.5.3566" X="266.132672887991" Y="19.9191999834341" zoom="0.847618571998227" Description="Sets the Camera Position for each Iteration Step" Category="Dynanimator.Functions" Name="DynanimatorFunctionHelper Camera Position With Fixed Target" ID="9f0e63c6-328d-42be-93ba-fc59beb24566">
+  <Elements>
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="37fa9974-59b0-4637-a197-dcb4600ee9fe" nickname="Code Block" x="250" y="37.9967846647567" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1/n*iteration;" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="34f06449-d51c-4f75-985d-18eba2ddd333" nickname="Curve.PointAtParameter" x="518.46351415953" y="0" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Curve.PointAtParameter@double">
+      <PortInfo index="1" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="dd861b25-9443-4843-b39e-a2f60d30d4d7" nickname="PerspectiveView.SetOrientationByEyeAndTargetPosition" x="729.332150795994" y="92.1998001861472" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="161bade3-e592-4aff-a1f7-0a49f2f92bab" />
+      <Name value="PerspectiveView.SetOrientationByEyeAndTargetPosition" />
+      <Description value="Sets the orientation of a given perspective view based on a given eye and target position" />
+      <Inputs>
+        <Input value="View" />
+        <Input value="Eye Position" />
+        <Input value="Target Position" />
+      </Inputs>
+      <Outputs>
+        <Output value="View" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="b7e0f188-a507-4a13-9fa4-faaefa715eb6" nickname="Input" x="0" y="150" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Iteration" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="b1a8f3ef-b42e-496f-a6e8-57fe795b678c" nickname="Input" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Total Iterations" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="1ddac48a-f74a-4aaa-93db-5619bfed04bc" nickname="Input" x="0" y="450" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9a25f9ee-80fa-4d9b-826d-ac48b5a6047d" nickname="Input" x="0" y="300" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Camera Path" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fbc62f26-abbc-41e9-b2bb-3eb80974c16d" nickname="Input" x="0" y="600" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Target Position" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="b5f32d3b-7cff-4ec5-9740-30c0b38f2b7f" nickname="Output" x="1166.33215079599" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="37fa9974-59b0-4637-a197-dcb4600ee9fe" start_index="0" end="34f06449-d51c-4f75-985d-18eba2ddd333" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="34f06449-d51c-4f75-985d-18eba2ddd333" start_index="0" end="dd861b25-9443-4843-b39e-a2f60d30d4d7" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dd861b25-9443-4843-b39e-a2f60d30d4d7" start_index="0" end="b5f32d3b-7cff-4ec5-9740-30c0b38f2b7f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="b1a8f3ef-b42e-496f-a6e8-57fe795b678c" start_index="0" end="37fa9974-59b0-4637-a197-dcb4600ee9fe" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="b7e0f188-a507-4a13-9fa4-faaefa715eb6" start_index="0" end="37fa9974-59b0-4637-a197-dcb4600ee9fe" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9a25f9ee-80fa-4d9b-826d-ac48b5a6047d" start_index="0" end="34f06449-d51c-4f75-985d-18eba2ddd333" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1ddac48a-f74a-4aaa-93db-5619bfed04bc" start_index="0" end="dd861b25-9443-4843-b39e-a2f60d30d4d7" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="fbc62f26-abbc-41e9-b2bb-3eb80974c16d" start_index="0" end="dd861b25-9443-4843-b39e-a2f60d30d4d7" end_index="2" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
