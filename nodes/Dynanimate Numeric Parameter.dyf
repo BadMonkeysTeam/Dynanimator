@@ -1,7 +1,7 @@
-<Workspace Version="0.7.5.3566" X="240.94" Y="132.825" zoom="0.8425" Description="Animates parameter values of a selection of elements." Category="Dynanimator.ElementProperties" Name="Dynanimate Numeric Parameter" ID="68d2b5d9-7479-4dac-b294-c609a45a5de0">
+<Workspace Version="0.7.5.3566" X="363.778291443834" Y="181.642062814734" zoom="0.679007436100058" Description="Animates parameter values of a selection of elements." Category="Dynanimator.ElementProperties" Name="Dynanimate Numeric Parameter" ID="68d2b5d9-7479-4dac-b294-c609a45a5de0">
   <Elements>
-    <DSCore.Map type="DSCore.Map" guid="29c9202e-327b-45ad-9f80-f0adb639721f" nickname="List.Map" x="502.269155698978" y="30.160702364235" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
-    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="f78bf39f-279d-466d-ad75-1edcf6381a92" nickname="Code Block" x="320.969866978399" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />
+    <DSCore.Map type="DSCore.Map" guid="29c9202e-327b-45ad-9f80-f0adb639721f" nickname="List.Map" x="583.269741371349" y="92.0156950595005" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="f78bf39f-279d-466d-ad75-1edcf6381a92" nickname="Code Block" x="313.60617737182" y="47.1276134821071" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="f31b22ce-ea66-450a-bcf3-064bbd8454d0" nickname="DynanimatorFunction Numeric Parameter" x="250" y="125.909997432934" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="0e7adf7f-ccda-4eae-9c86-6713dcb83dcd" />
       <Name value="DynanimatorFunction Numeric Parameter" />
@@ -20,28 +20,28 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="bd098b2c-971b-4290-b34f-7eac9f664398" nickname="Input" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="bd098b2c-971b-4290-b34f-7eac9f664398" nickname="Input" x="-45.6548755607914" y="33.8729721902644" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Iterations" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="538ec9a3-7b83-4a12-98e2-d219c7efe83f" nickname="Input" x="0" y="300" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="538ec9a3-7b83-4a12-98e2-d219c7efe83f" nickname="Input" x="-45.6548755607914" y="106.517686658813" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Directory Path" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="19c5c707-a1fd-4fb3-8249-57b61bf07e4c" nickname="Input" x="0" y="450" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="19c5c707-a1fd-4fb3-8249-57b61bf07e4c" nickname="Input" x="-45.6548755607914" y="179.162401127362" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="View" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="38c7bce9-fd94-4d8b-99ef-de8eb0471412" nickname="Input" x="0" y="600" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="38c7bce9-fd94-4d8b-99ef-de8eb0471412" nickname="Input" x="-45.6548755607914" y="251.807115595911" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Elements" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="24877417-3834-4884-a165-7b472e6958f4" nickname="Input" x="0" y="750" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="24877417-3834-4884-a165-7b472e6958f4" nickname="Input" x="-45.6548755607914" y="324.45183006446" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Parameter Name" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="b2a042d5-a793-466c-bac6-7120c95b6a79" nickname="Input" x="0" y="900" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="b2a042d5-a793-466c-bac6-7120c95b6a79" nickname="Input" x="-45.6548755607914" y="397.096544533008" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Min Param Value" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="5a972de5-0cbf-4281-ac12-324dfa09e61d" nickname="Input" x="0" y="1050" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="5a972de5-0cbf-4281-ac12-324dfa09e61d" nickname="Input" x="-45.6548755607914" y="469.741259001557" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Max Param Value" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="b1135195-3571-4b67-9b47-19ed6e69d618" nickname="Output" x="711.269155698978" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="b1135195-3571-4b67-9b47-19ed6e69d618" nickname="Output" x="781.960575922139" y="107.509868256057" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="" />
     </Dynamo.Nodes.Output>
   </Elements>
