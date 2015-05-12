@@ -1,7 +1,14 @@
 #Dynanimator
-An animation package for the Dynamo visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com). Find more information and some nice animations in [this blog post](http://vasshaug.net/2014/12/18/animate-design-iterations-in-revit-with-dynamo/) by [Håvard Vasshaug](https://github.com/vasshaug).
+An animation package for the Dynamo visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com).
 
-﻿![Sample Animation](sample_animations/Phases And Camera Position With Fixed Target.gif)
+![Sample Animation](sample_animations/Phases And Camera Position With Fixed Target.gif)
+
+##Samples
+Follow the links below to see some animations created using Dynanimator:
+- [Sample animations for all Dynanimator nodes](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations)
+- [Animate design iterations in Revit with Dynamo](http://vasshaug.net/2014/12/18/animate-design-iterations-in-revit-with-dynamo/) (First post about Dynanimator after AU2014 by Håvard Vasshaug)
+- [Dynanimator released: Animating Data Changes in Revit with Dynamo](http://vasshaug.net/2015/04/22/dynanimator-released-animating-data-changes-in-revit-with-dynamo/) (Package release announcement by Håvard Vasshaug
+- [Dynam(o)ite Your Design with Dynanimator](https://revitbeyondbim.wordpress.com/2015/05/07/dynamoite-your-design-with-dynanimator/) (User review by Dieter Vermeulen)
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
