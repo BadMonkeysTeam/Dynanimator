@@ -38,11 +38,12 @@ Please note that this package has dependencies - currently, during installation 
 ##Collaborate
 If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/BadMonkeysInc/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). There's also a guide that explains how to build your own Dynanimator nodes on the [wiki](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
 
-##Original Project Team
+##Team
+###Original Project Team
 - [Julien Benoit](https://github.com/jbenoit44)
 - [Andreas Dieckmann](https://github.com/andydandy74)
 - [Ian Siegel](https://github.com/IanSiegelKPF)
 - [Håvard Vasshaug](https://github.com/vasshaug)
 
-##Contributors
+###Contributors
 - [Fabian Ritter](https://github.com/redinkinc)
