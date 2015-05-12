@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="200.870260824588" Y="62.661861152377" zoom="0.765829392851552" Description="Animates the camera of a perspective view around a fixed target." Category="Dynanimator.Cameras" Name="Dynanimate Numeric Parameter And Camera Position With Fixed Target" ID="f920d4f5-0db3-4d71-85e1-8da6c1829b93">
+<Workspace Version="0.7.5.3566" X="200.870260824588" Y="62.661861152377" zoom="0.765829392851552" Description="Animates the camera of a perspective view around a fixed target." Category="Dynanimator.ImageExport" Name="Dynanimate Numeric Parameter And Camera Position With Fixed Target (As Image)" ID="f920d4f5-0db3-4d71-85e1-8da6c1829b93">
   <Elements>
     <DSCore.Map type="DSCore.Map" guid="924cfe82-e061-44c8-a23c-875a50edc635" nickname="List.Map" x="656" y="39.7816666666667" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="08ae2633-a376-49d3-b25b-d2fe984c5693" nickname="Code Block" x="250" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />

@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="105" Y="89" zoom="1" Description="Animates the color of a selection of elements in the active view." Category="Dynanimator.ElementProperties" Name="Dynanimate Element Color" ID="ab11c650-02e9-4afb-a695-91381ef68d25">
+<Workspace Version="0.7.5.3566" X="105" Y="89" zoom="1" Description="Animates the color of a selection of elements in the active view." Category="Dynanimator.ImageExport" Name="Dynanimate Element Color (As Image)" ID="ab11c650-02e9-4afb-a695-91381ef68d25">
   <Elements>
     <DSCore.Map type="DSCore.Map" guid="339cc88a-42d3-4311-817a-6d93fd86c565" nickname="List.Map" x="540.156011512618" y="35.160702364235" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="f20f8db3-2abf-441a-9f55-699f42e590d4" nickname="Code Block" x="301.856722792039" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />

@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="187" Y="46" zoom="1" Description="Animates the camera and target position of a perspective view." Category="Dynanimator.Cameras" Name="Dynanimate Camera And Target Position" ID="d0924413-910e-4a00-bd30-83d842a9db64">
+<Workspace Version="0.7.5.3566" X="187" Y="46" zoom="1" Description="Animates the camera and target position of a perspective view." Category="Dynanimator.ImageExport" Name="Dynanimate Camera And Target Position (As Image)" ID="d0924413-910e-4a00-bd30-83d842a9db64">
   <Elements>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="f8013c75-c01c-42b8-9709-f0472addb761" nickname="DynanimatorFunction Camera And Target Position" x="262.677067082683" y="118.428312532502" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="988f60d3-6764-476d-acb6-2b40824eab7b" />

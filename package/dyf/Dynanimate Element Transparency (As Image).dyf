@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="32" Y="40" zoom="1" Description="Animates the transparency of a selection of elements in a given view." Category="Dynanimator.ElementProperties" Name="Dynanimate Element Transparency" ID="9bfd1a4e-0d45-4869-ad30-652d3f73d183">
+<Workspace Version="0.7.5.3566" X="32" Y="40" zoom="1" Description="Animates the transparency of a selection of elements in a given view." Category="Dynanimator.ImageExport" Name="Dynanimate Element Transparency (As Image)" ID="9bfd1a4e-0d45-4869-ad30-652d3f73d183">
   <Elements>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="93b8e16d-b496-4e45-ae9c-93dd6fd78a8f" nickname="DynanimatorFunction Element Transparency" x="250" y="131.483351872049" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="f11dc8f2-b81a-495f-be16-0445c3145b77" />

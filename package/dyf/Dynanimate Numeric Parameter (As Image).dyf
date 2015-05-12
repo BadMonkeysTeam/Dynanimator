@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="363.778291443834" Y="181.642062814734" zoom="0.679007436100058" Description="Animates parameter values of a selection of elements." Category="Dynanimator.ElementProperties" Name="Dynanimate Numeric Parameter" ID="68d2b5d9-7479-4dac-b294-c609a45a5de0">
+<Workspace Version="0.7.5.3566" X="363.778291443834" Y="181.642062814734" zoom="0.679007436100058" Description="Animates parameter values of a selection of elements." Category="Dynanimator.ImageExport" Name="Dynanimate Numeric Parameter (As Image)" ID="68d2b5d9-7479-4dac-b294-c609a45a5de0">
   <Elements>
     <DSCore.Map type="DSCore.Map" guid="29c9202e-327b-45ad-9f80-f0adb639721f" nickname="List.Map" x="583.269741371349" y="92.0156950595005" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="f78bf39f-279d-466d-ad75-1edcf6381a92" nickname="Code Block" x="313.60617737182" y="47.1276134821071" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />

@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="108.661446223142" Y="11.2275917577487" zoom="0.61664954464191" Description="Nested function used in DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" Category="Dynanimator.Functions" Name="DynanimatorNestedFunction Numeric Parameter And Camera Position With Fixed Target" ID="46b76295-ee66-4255-99f7-953ad50b886d">
+<Workspace Version="0.7.5.3566" X="108.661446223142" Y="11.2275917577487" zoom="0.61664954464191" Description="Sets the parameter value and the camera eye and target position for each iteration step" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper Numeric Parameter And Camera Position With Fixed Target" ID="46b76295-ee66-4255-99f7-953ad50b886d">
   <Elements>
     <DSCoreNodesUI.CreateList type="DSCoreNodesUI.CreateList" guid="a5078285-b73c-4bda-adb4-b178560a16be" nickname="List.Create" x="1444" y="288" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="14205c3c-0a71-4aab-8294-bf002c8227b1" nickname="Input" x="1.54353285266643" y="338.295083822286" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
@@ -34,7 +34,7 @@
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="cadfeb14-163f-41b1-8683-c6b21a0dd8af" nickname="DynanimatorFunctionHelper Numeric Parameter" x="423.571954399278" y="169.607043186484" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="f8b694f6-e07e-4d79-8f8c-9866348387c6" />
       <Name value="DynanimatorFunctionHelper Numeric Parameter" />
-      <Description value="Iterates an Element Paramter" />
+      <Description value="Sets a parameter value for each iteration step" />
       <Inputs>
         <Input value="Iteration" />
         <Input value="Total Iterations" />
@@ -44,13 +44,13 @@
         <Input value="Max Param Value" />
       </Inputs>
       <Outputs>
-        <Output value="[]" />
+        <Output value="Elements" />
       </Outputs>
     </Dynamo.Nodes.Function>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="79379cb6-d3f5-41df-bd92-820bdc4ff758" nickname="DynanimatorFunctionHelper Camera Position With Fixed Target" x="424.347348646177" y="433.970082526308" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="9f0e63c6-328d-42be-93ba-fc59beb24566" />
       <Name value="DynanimatorFunctionHelper Camera Position With Fixed Target" />
-      <Description value="Sets the Camera Position for each Iteration Step" />
+      <Description value="Sets the camera eye position for each iteration step" />
       <Inputs>
         <Input value="Iteration" />
         <Input value="Total Iterations" />

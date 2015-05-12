@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="145" Y="150" zoom="1" Description="Animates the phases of a project in a given view." Category="Dynanimator.ElementProperties" Name="Dynanimate Phases" ID="b5a374b5-79f6-43a9-81fd-eaf093a910f3">
+<Workspace Version="0.7.5.3566" X="145" Y="150" zoom="1" Description="Animates the phases of a project in a given view." Category="Dynanimator.ImageExport" Name="Dynanimate Phases (As Image)" ID="b5a374b5-79f6-43a9-81fd-eaf093a910f3">
   <Elements>
     <DSCore.Map type="DSCore.Map" guid="c04e3b84-4995-4942-9851-b71194e7c847" nickname="List.Map" x="598.436162596258" y="84.160702364235" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="973ed492-60b4-483e-9771-521c0394a90e" nickname="Code Block" x="411.136873875679" y="53" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />
