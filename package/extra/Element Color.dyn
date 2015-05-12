@@ -1,0 +1,55 @@
+<Workspace Version="0.7.5.3566" X="226.454553311516" Y="333.267736011045" zoom="0.864529176257253" Description="" Category="" Name="Home">
+  <Elements>
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" nickname="Directory Path" x="-148.23877771484" y="-197.34035424889" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\temp</System.String>
+    </DSCore.File.Directory>
+    <Dynamo.Nodes.IntegerSlider type="Dynamo.Nodes.IntegerSlider" guid="04d34a57-9004-49ed-a5de-e5294a899ac7" nickname="Integer Slider" x="-223.23877771484" y="-332.278302296864" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Int32>10</System.Int32>
+      <Range min="0" max="100" />
+    </Dynamo.Nodes.IntegerSlider>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="df1b2e03-3ee2-4016-b316-80850c4b933d" nickname="Color.Red" x="-143.23877771484" y="54.5355418470588" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="6315a707-503e-4065-948a-410bdb059454" />
+      <Name value="Color.Red" />
+      <Description value="Returns the colour red." />
+      <Inputs />
+      <Outputs>
+        <Output value="255,0,0" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="be1056f5-bbb5-4350-b58c-19bde1e40a24" nickname="Color.Blue" x="-143.23877771484" y="178.473489895033" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="c99bdca1-493e-4dac-9bdd-0850c4eaa327" />
+      <Name value="Color.Blue" />
+      <Description value="Returns the colour blue." />
+      <Inputs />
+      <Outputs>
+        <Output value="0,0,255" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.DSModelElementsSelection type="Dynamo.Nodes.DSModelElementsSelection" guid="28d24eb4-7ac1-470e-96fe-746b8a7ffd1b" nickname="Select Model Elements" x="-227.23877771484" y="-70.4024062009155" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <instance id="a6aa132d-ccd7-408f-b2f9-ed67350c8c3a-0003b64a" />
+    </Dynamo.Nodes.DSModelElementsSelection>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="b0cee110-16a0-4419-816d-8b8aadd96ffb" nickname="Dynanimate Element Color" x="299.34758854388" y="-177.584320023763" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="ab11c650-02e9-4afb-a695-91381ef68d25" />
+      <Name value="Dynanimate Element Color" />
+      <Description value="Animates the color of a selection of elements in the active view." />
+      <Inputs>
+        <Input value="Iterations" />
+        <Input value="Directory Path" />
+        <Input value="Elements" />
+        <Input value="Start Color" />
+        <Input value="End Color" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="56d0fe0a-0323-4d47-ba4f-d9ed2e1a9921" start_index="0" end="b0cee110-16a0-4419-816d-8b8aadd96ffb" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="04d34a57-9004-49ed-a5de-e5294a899ac7" start_index="0" end="b0cee110-16a0-4419-816d-8b8aadd96ffb" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="df1b2e03-3ee2-4016-b316-80850c4b933d" start_index="0" end="b0cee110-16a0-4419-816d-8b8aadd96ffb" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="be1056f5-bbb5-4350-b58c-19bde1e40a24" start_index="0" end="b0cee110-16a0-4419-816d-8b8aadd96ffb" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="28d24eb4-7ac1-470e-96fe-746b8a7ffd1b" start_index="0" end="b0cee110-16a0-4419-816d-8b8aadd96ffb" end_index="2" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>

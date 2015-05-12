@@ -1,0 +1,46 @@
+<Workspace Version="0.7.5.3566" X="202.605536939472" Y="32.5611258032933" zoom="1.13593358765372" Description="" Category="" Name="Home">
+  <Elements>
+    <DSRevitNodesUI.FamilyTypes type="DSRevitNodesUI.FamilyTypes" guid="90719baa-a190-4d9b-9f9b-ee7c1c1e62bc" nickname="Family Types" x="0" y="315" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="83:Single Window:Standard" />
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="3ce5eed9-0001-47ec-82bd-0710bf0b9a43" nickname="Directory Path" x="389.472522849214" y="116.745356039182" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\temp</System.String>
+    </DSCore.File.Directory>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="ea4904f6-b2d9-4254-b89a-13fc7f6df66f" nickname="Views" x="343.472522849214" y="228.745356039182" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="17:From Yard" />
+    <Dynamo.Nodes.StringInput type="Dynamo.Nodes.StringInput" guid="a7aa32e2-18ce-45c4-b41c-ab40defcc649" nickname="String" x="413.472522849214" y="395.745356039182" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String value="Height" />
+    </Dynamo.Nodes.StringInput>
+    <DSRevitNodesUI.ElementsOfFamilyType type="DSRevitNodesUI.ElementsOfFamilyType" guid="d9ee5e35-2094-43ed-9f47-b83852341f93" nickname="All Elements of Family Type" x="298.472522849214" y="315.152197059992" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="50e790fc-90d9-42cf-947c-cfe01db08172" nickname="Code Block" x="-26.3136483480517" y="473.344873756552" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="// Depending on which Dynamo version you are running you may need to significantly alter these parameter values.&#xA;// In Dynamo 0.7.x set these values to imperial units (or convert them to imperial units before sending them to the Dynanimate node), e.g. Min = 2 ft, Max = 6.5 ft&#xA;// In Dynamo 0.8.x set these values according to the unit settings of your Revit project, e.g. Min = 1200 mm, Max = 2700 mm&#xA;&#xA;// Min. parameter value&#xA;2;&#xA;// Max. parameter value&#xA;6.5;" ShouldFocus="false" />
+    <Dynamo.Nodes.IntegerSlider type="Dynamo.Nodes.IntegerSlider" guid="c7562a16-6c1d-474d-a8bc-b81cf57effd7" nickname="Integer Slider" x="314.472522849214" y="-2.25464396081759" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Int32>10</System.Int32>
+      <Range min="0" max="100" />
+    </Dynamo.Nodes.IntegerSlider>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" nickname="Dynanimate Numeric Parameter" x="637" y="191" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="68d2b5d9-7479-4dac-b294-c609a45a5de0" />
+      <Name value="Dynanimate Numeric Parameter" />
+      <Description value="Animates parameter values of a selection of elements." />
+      <Inputs>
+        <Input value="Iterations" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="Elements" />
+        <Input value="Parameter Name" />
+        <Input value="Min Param Value" />
+        <Input value="Max Param Value" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="90719baa-a190-4d9b-9f9b-ee7c1c1e62bc" start_index="0" end="d9ee5e35-2094-43ed-9f47-b83852341f93" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3ce5eed9-0001-47ec-82bd-0710bf0b9a43" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ea4904f6-b2d9-4254-b89a-13fc7f6df66f" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a7aa32e2-18ce-45c4-b41c-ab40defcc649" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d9ee5e35-2094-43ed-9f47-b83852341f93" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="50e790fc-90d9-42cf-947c-cfe01db08172" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="50e790fc-90d9-42cf-947c-cfe01db08172" start_index="1" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="6" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c7562a16-6c1d-474d-a8bc-b81cf57effd7" start_index="0" end="844719fb-b6ad-4e89-b8f6-7dc497a6c23d" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
