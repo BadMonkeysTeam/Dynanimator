@@ -15,11 +15,13 @@ This package was developed for animating several aspects of a Revit model:
 - Design Options [planned]
 - Combinations of the above [partially done]
 - ...
+
 The results could be exported in a number of formats:
 - Images [done]
 - Revit models [planned]
 - SAT files [planned]
 - ...
+
 We are also thinking about connecting Dynanimator with other functionalities like cloud rendering etc.
  
 ##Installation
