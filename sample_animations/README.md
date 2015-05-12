@@ -1,0 +1,1 @@
+These animations showcase the different animation capabilities of Dynanimator. They are based on the sample files included in the package.
