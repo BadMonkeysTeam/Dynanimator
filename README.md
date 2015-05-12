@@ -33,7 +33,7 @@ We are also thinking about connecting Dynanimator with other functionalities lik
  
 ##Installation
 This package is available through Dynamo's package manager, so installation is quite simple - just use Dynamo's built-in package manager and search for ```Dynanimator```.
-Please note that this package has dependencies - currently, during installation it will also install the package [Clockwork](https://github.com/CAAD-RWTH/ClockworkForDynamo). There may be more dependencies in the future.
+Please note that this package has dependencies - currently, during installation it will also install the [Clockwork](https://github.com/CAAD-RWTH/ClockworkForDynamo) package. There may be more dependencies in the future.
 
 ##Collaborate
 If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/BadMonkeysInc/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). There's also a guide that explains how to build your own Dynanimator nodes on the [wiki](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
