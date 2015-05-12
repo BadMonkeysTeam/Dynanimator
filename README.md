@@ -12,19 +12,19 @@ Follow the links below to see some animations created using Dynanimator:
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
-- Element parameters [done]
-- Element transparency [done]
-- Element surface color [done]
-- Camera (and target) position of perspective views [done]
-- Phases [done]
+- **Element parameters** [done]
+- **Element transparency** [done]
+- **Element surface color** [done]
+- **Camera (and target) position of perspective views** [done]
+- **Phases** [done]
 - Displacement sets [under review]
 - Sun position [planned]
 - Design Options [planned]
-- Combinations of the above [partially done]
+- **Combinations of the above** [partially done]
 - ...
 
 The results could be exported in a number of formats:
-- Images [done]
+- **Images** [done]
 - Revit models [planned]
 - SAT files [planned]
 - ...
