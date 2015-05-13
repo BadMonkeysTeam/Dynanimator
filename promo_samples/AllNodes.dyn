@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="220.182725922298" Y="124.87941682663" zoom="0.476393432300346" Description="" Category="" Name="Home">
+<Workspace Version="0.7.5.3566" X="220.182725922299" Y="124.87941682663" zoom="0.476393432300346" Description="" Category="" Name="Home">
   <Elements>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="1bc7a503-0409-4202-b76f-86c651e8b4a7" nickname="Dynanimate Camera And Target Position (As Image)" x="9.64960244270503" y="-196.337954587573" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="d0924413-910e-4a00-bd30-83d842a9db64" />
@@ -118,7 +118,7 @@
         <Input value="View" />
         <Input value="Images per Phase" />
         <Input value="Camera Path" />
-        <Input value="Target Path" />
+        <Input value="Target Position" />
       </Inputs>
       <Outputs>
         <Output value="" />
@@ -232,10 +232,10 @@
       <Name value="DynanimatorFunction Phases" />
       <Description value="Helper function for Dynanimate Phases" />
       <Inputs>
-        <Input value="Phase Index" />
-        <Input value="Phases" />
         <Input value="Directory Path" />
         <Input value="View" />
+        <Input value="Phases" />
+        <Input value="Phase Index" />
       </Inputs>
       <Outputs>
         <Output value="func" />
@@ -246,10 +246,10 @@
       <Name value="DynanimatorFunction Phases And Camera Position With Fixed Target" />
       <Description value="Helper function for Dynanimate Phases" />
       <Inputs>
-        <Input value="Phase Index" />
-        <Input value="Phases" />
         <Input value="Directory Path" />
         <Input value="View" />
+        <Input value="Phases" />
+        <Input value="Phase Index" />
         <Input value="Camera Path" />
         <Input value="Target Position" />
       </Inputs>
