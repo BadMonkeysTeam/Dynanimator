@@ -21,7 +21,7 @@ This package was developed for animating several aspects of a Revit model:
 - [Sun position [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/17)
 - [Design Options [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/14)
 - [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
-- **Combinations of the above** [partially done] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
+- **Combinations of the above** [[partially done](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations#combine-multiple-techniques)] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
 - ...
 
 The results could be exported in a number of formats:
