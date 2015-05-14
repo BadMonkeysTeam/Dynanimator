@@ -8,7 +8,8 @@ Follow the links below to see some animations created using Dynanimator:
 - [Sample animations for all Dynanimator nodes](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations)
 - [Animate design iterations in Revit with Dynamo](http://vasshaug.net/2014/12/18/animate-design-iterations-in-revit-with-dynamo/) (First post about Dynanimator after AU2014 by Håvard Vasshaug)
 - [Dynanimator released: Animating Data Changes in Revit with Dynamo](http://vasshaug.net/2015/04/22/dynanimator-released-animating-data-changes-in-revit-with-dynamo/) (Package release announcement by Håvard Vasshaug
-- [Dynam(o)ite Your Design with Dynanimator](https://revitbeyondbim.wordpress.com/2015/05/07/dynamoite-your-design-with-dynanimator/) (User review by Dieter Vermeulen)
+- [Dynam(o)ite Your Design goes … D-I-S-C-O](https://revitbeyondbim.wordpress.com/2015/05/05/dynamoite-your-design-goes-d-i-s-c-o/) (User animation of parameter values by Dieter Vermeulen)
+- [Dynam(o)ite Your Design with Dynanimator](https://revitbeyondbim.wordpress.com/2015/05/07/dynamoite-your-design-with-dynanimator/) (User animation of camera path by Dieter Vermeulen)
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
