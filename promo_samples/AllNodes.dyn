@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="220.182725922299" Y="124.87941682663" zoom="0.476393432300346" Description="" Category="" Name="Home">
+<Workspace Version="0.7.5.3566" X="216.476349450708" Y="120.355964296159" zoom="0.453680992142999" Description="" Category="" Name="Home">
   <Elements>
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="1bc7a503-0409-4202-b76f-86c651e8b4a7" nickname="Dynanimate Camera And Target Position (As Image)" x="9.64960244270503" y="-196.337954587573" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="d0924413-910e-4a00-bd30-83d842a9db64" />
@@ -30,7 +30,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5afbc77e-6a1b-4cfe-9a51-94aa71a0a4ab" nickname="Dynanimate Element Color (As Image)" x="765.052586990478" y="-197.749922782989" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5afbc77e-6a1b-4cfe-9a51-94aa71a0a4ab" nickname="Dynanimate Element Color (As Image)" x="1041.43561831284" y="-197.749922782989" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="ab11c650-02e9-4afb-a695-91381ef68d25" />
       <Name value="Dynanimate Element Color (As Image)" />
       <Description value="Animates the color of a selection of elements in the active view." />
@@ -45,7 +45,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="d9054bf5-94f7-4bf6-96ea-908e1f629bb6" nickname="Dynanimate Element Transparency (As Image)" x="1031.91457592418" y="-199.161890978406" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="d9054bf5-94f7-4bf6-96ea-908e1f629bb6" nickname="Dynanimate Element Transparency (As Image)" x="1308.29760724654" y="-199.161890978406" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="9bfd1a4e-0d45-4869-ad30-652d3f73d183" />
       <Name value="Dynanimate Element Transparency (As Image)" />
       <Description value="Animates the transparency of a selection of elements in a given view." />
@@ -61,7 +61,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="e9186573-4251-4708-a490-9c307437c514" nickname="Dynanimate Numeric Parameter (As Image)" x="1353.50401023571" y="-198.582405789715" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="e9186573-4251-4708-a490-9c307437c514" nickname="Dynanimate Numeric Parameter (As Image)" x="10.3630849337071" y="9.04887070058822" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="68d2b5d9-7479-4dac-b294-c609a45a5de0" />
       <Name value="Dynanimate Numeric Parameter (As Image)" />
       <Description value="Animates parameter values of a selection of elements." />
@@ -78,7 +78,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="cf3d9e03-e447-467c-8ae9-8b7bb55a8548" nickname="Dynanimate Numeric Parameter And Camera Position With Fixed Target (As Image)" x="15.1529758933284" y="8.39743374780494" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="cf3d9e03-e447-467c-8ae9-8b7bb55a8548" nickname="Dynanimate Numeric Parameter And Camera Position With Fixed Target (As Image)" x="315.274548274767" y="8.39743374780494" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="f920d4f5-0db3-4d71-85e1-8da6c1829b93" />
       <Name value="Dynanimate Numeric Parameter And Camera Position With Fixed Target (As Image)" />
       <Description value="Animates the camera of a perspective view around a fixed target." />
@@ -97,7 +97,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="4fa87157-0795-4b0d-abad-8e3642a58781" nickname="Dynanimate Phases (As Image)" x="568.439346485643" y="11.4386150900418" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="4fa87157-0795-4b0d-abad-8e3642a58781" nickname="Dynanimate Phases (As Image)" x="866.673361808079" y="7.6635009720363" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="b5a374b5-79f6-43a9-81fd-eaf093a910f3" />
       <Name value="Dynanimate Phases (As Image)" />
       <Description value="Animates the phases of a project in a given view." />
@@ -109,7 +109,7 @@
         <Output value="" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="98338b63-d0fc-4ae4-8ebc-689f52e1123a" nickname="Dynanimate Phases And Camera Position With Fixed Target (As Image)" x="791.735483372347" y="30.9889248744672" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="98338b63-d0fc-4ae4-8ebc-689f52e1123a" nickname="Dynanimate Phases And Camera Position With Fixed Target (As Image)" x="1091.85705575379" y="30.9889248744672" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="4edf941b-e0b6-44d1-ba9d-50b1e7290513" />
       <Name value="Dynanimate Phases And Camera Position With Fixed Target (As Image)" />
       <Description value="Animates the phases of a project in a given view." />
@@ -156,7 +156,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="97c2cea8-6647-4f34-9ae5-cdc69a59e0d2" nickname="DynanimatorFunction Element Color" x="756.58077781798" y="399.512623878147" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="97c2cea8-6647-4f34-9ae5-cdc69a59e0d2" nickname="DynanimatorFunction Element Color" x="1026.50143725537" y="399.512623878147" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="2652c87d-a98b-437a-9a66-192bfba78696" />
       <Name value="DynanimatorFunction Element Color" />
       <Description value="Helper function for Dynanimate Element Color" />
@@ -172,7 +172,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="106443bd-4db4-421b-b9c6-78da7194c539" nickname="DynanimatorFunction Element Transparency" x="1023.44276675168" y="399.512623878147" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="106443bd-4db4-421b-b9c6-78da7194c539" nickname="DynanimatorFunction Element Transparency" x="1293.36342618907" y="399.512623878147" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="f11dc8f2-b81a-495f-be16-0445c3145b77" />
       <Name value="DynanimatorFunction Element Transparency" />
       <Description value="Helper function for Dynanimate Element Transparency" />
@@ -189,7 +189,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="71b3bf41-aa50-41c9-b5f0-0bb7ee8bbebc" nickname="DynanimatorFunction Numeric Parameter" x="1345.64768709595" y="400.116274947819" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="71b3bf41-aa50-41c9-b5f0-0bb7ee8bbebc" nickname="DynanimatorFunction Numeric Parameter" x="14.9199604990065" y="634.173350264161" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="0e7adf7f-ccda-4eae-9c86-6713dcb83dcd" />
       <Name value="DynanimatorFunction Numeric Parameter" />
       <Description value="Helper function for Dynanimate Numeric Parameter" />
@@ -207,7 +207,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="7e615e69-2592-4957-b954-1063612b7293" nickname="DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" x="18.9906393982401" y="636.119877615851" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="7e615e69-2592-4957-b954-1063612b7293" nickname="DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" x="317.224654720676" y="632.344763497845" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="81494135-9b91-4fe3-b331-d767f872f13d" />
       <Name value="DynanimatorFunction Numeric Parameter And Camera Position With Fixed Target" />
       <Description value="Helper function for Dynanimate Camera Position With Fixed Target" />
@@ -227,7 +227,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="dd4e300b-2ba9-4df3-b13d-a0e6a0995bcc" nickname="DynanimatorFunction Phases" x="569.851314681059" y="635.52855746409" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="dd4e300b-2ba9-4df3-b13d-a0e6a0995bcc" nickname="DynanimatorFunction Phases" x="868.085330003495" y="631.753443346084" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="578bb0ef-e4f1-4d49-bd0a-68e7ac9a0b05" />
       <Name value="DynanimatorFunction Phases" />
       <Description value="Helper function for Dynanimate Phases" />
@@ -241,7 +241,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5bcb617f-e3dc-4c16-b00a-950f5684a106" nickname="DynanimatorFunction Phases And Camera Position With Fixed Target" x="796.16446702902" y="662.536949306935" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5bcb617f-e3dc-4c16-b00a-950f5684a106" nickname="DynanimatorFunction Phases And Camera Position With Fixed Target" x="1094.39848235146" y="658.761835188929" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="23a39bf7-8e9d-47dd-965b-60ce77d62fe6" />
       <Name value="DynanimatorFunction Phases And Camera Position With Fixed Target" />
       <Description value="Helper function for Dynanimate Phases" />
@@ -257,7 +257,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="41dd90ef-4c7e-4970-851a-e9c76b362743" nickname="DynanimatorFunction Target Position With Fixed Camera" x="1264.85196344802" y="687.662510241374" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="41dd90ef-4c7e-4970-851a-e9c76b362743" nickname="DynanimatorFunction Target Position With Fixed Camera" x="1561.19842171145" y="659.349154356332" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="f3a0c7ab-b094-4620-9e40-a0f0e0e7bcee" />
       <Name value="DynanimatorFunction Target Position With Fixed Camera" />
       <Description value="Helper function for Dynanimate Target Position With Fixed Camera Position" />
@@ -273,7 +273,7 @@
         <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5e830259-d959-4f60-9267-2e07664c482e" nickname="Dynanimate Target Position With Fixed Camera Position (As Image)" x="1264.94358696172" y="56.7443409044133" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="5e830259-d959-4f60-9267-2e07664c482e" nickname="Dynanimate Target Position With Fixed Camera Position (As Image)" x="1565.06515934316" y="32.2060991373774" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="aae03573-4a03-477e-abce-6b39e1979def" />
       <Name value="Dynanimate Target Position With Fixed Camera Position (As Image)" />
       <Description value="Animates the target position of a perspective view with a fixed camera position." />
@@ -426,6 +426,33 @@
       </Inputs>
       <Outputs>
         <Output value="View" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="c23f931b-06f3-4066-8395-133f56af7104" nickname="Dynanimate Design Options (As Image)" x="765.609229916892" y="-196.236666536035" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="12fc4f93-e092-4945-8f92-9a106e67cb25" />
+      <Name value="Dynanimate Design Options (As Image)" />
+      <Description value="Animates  a list of design options in a given view." />
+      <Inputs>
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="DesignOptions" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="9cbddabe-2c7b-4860-96c3-ab349e4fd0c8" nickname="DynanimatorFunction Design Options" x="755.269428724755" y="399.152575028773" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="989595d8-a07c-4cea-9d72-09c41577b0f8" />
+      <Name value="DynanimatorFunction Design Options" />
+      <Description value="Helper function for Dynanimate Design Options" />
+      <Inputs>
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="Design Options" />
+        <Input value="Design Option Index" />
+      </Inputs>
+      <Outputs>
+        <Output value="func" />
       </Outputs>
     </Dynamo.Nodes.Function>
   </Elements>
