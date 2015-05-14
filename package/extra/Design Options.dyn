@@ -1,0 +1,58 @@
+<Workspace Version="0.7.5.3566" X="-1033.74341162979" Y="359.384472010432" zoom="0.619529877954518" Description="" Category="" Name="Home">
+  <Elements>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="9b834495-16f0-4bf5-b597-0d8a7dd43967" nickname="Document.DesignOptions" x="1818.57408824872" y="78.2937513743867" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="a6d063a5-0ecf-400b-9c91-47023e8408d7" />
+      <Name value="Document.DesignOptions" />
+      <Description value="Returns all design options in the model, grouped by design option set" />
+      <Inputs />
+      <Outputs>
+        <Output value="DesignOptionSets" />
+        <Output value="DesignOptions" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="3d4925d6-ad2b-4bbc-ad64-efe68b896b35" nickname="Element.Name (Universal)" x="2042.84176604639" y="47.033851031313" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="9266cc47-e982-46fc-9fd4-59bd7fb19a53" />
+      <Name value="Element.Name (Universal)" />
+      <Description value="Gets an element's name (Dynamo's built-in Name nodes don't work for all element types, e.g. worksets...)" />
+      <Inputs>
+        <Input value="Element(s)" />
+      </Inputs>
+      <Outputs>
+        <Output value="Name(s)" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="aaa517d2-523a-48d3-8786-116ab302ccee" nickname="==" x="2274.4074233805" y="-17.9670352379109" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="" function="==@," />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="bceab0e8-9938-4ca1-afce-f1c6f1044a2d" nickname="Code Block" x="2106.14878434288" y="-54.4162928759271" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="&quot;People&quot;;" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="e2e2c504-63e2-407b-9923-5476ddc156e6" nickname="List.FilterByBoolMask" x="2451.49125846147" y="103.305658441685" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.FilterByBoolMask@var[]..[],var[]..[]" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="7fa86f88-e47a-4605-8b56-163fc83d0c21" nickname="Flatten" x="2662.74413883645" y="103.305658441685" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="" function="Flatten@var[]..[]" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="dc259ac9-7538-4ab1-a1fb-7738577d0f6c" nickname="Dynanimate Design Options (As Image)" x="2877.75464365165" y="-15.0703739843394" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="12fc4f93-e092-4945-8f92-9a106e67cb25" />
+      <Name value="Dynanimate Design Options (As Image)" />
+      <Description value="Animates all design options contained in a given option set of a project in a given view." />
+      <Inputs>
+        <Input value="Directory Path" />
+        <Input value="View" />
+        <Input value="DesignOptions" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="7e747145-aa75-46fd-ba2e-edd6a17d8f39" nickname="Directory Path" x="2680.72692364365" y="-98.1993959786879" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\temp</System.String>
+    </DSCore.File.Directory>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="7bf2c253-01ca-41cb-ab92-604b79045b29" nickname="Views" x="2640.37374474203" y="13.1753777897947" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="17:From Yard" />
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="9b834495-16f0-4bf5-b597-0d8a7dd43967" start_index="0" end="3d4925d6-ad2b-4bbc-ad64-efe68b896b35" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9b834495-16f0-4bf5-b597-0d8a7dd43967" start_index="1" end="e2e2c504-63e2-407b-9923-5476ddc156e6" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3d4925d6-ad2b-4bbc-ad64-efe68b896b35" start_index="0" end="aaa517d2-523a-48d3-8786-116ab302ccee" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="aaa517d2-523a-48d3-8786-116ab302ccee" start_index="0" end="e2e2c504-63e2-407b-9923-5476ddc156e6" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bceab0e8-9938-4ca1-afce-f1c6f1044a2d" start_index="0" end="aaa517d2-523a-48d3-8786-116ab302ccee" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e2e2c504-63e2-407b-9923-5476ddc156e6" start_index="0" end="7fa86f88-e47a-4605-8b56-163fc83d0c21" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7fa86f88-e47a-4605-8b56-163fc83d0c21" start_index="0" end="dc259ac9-7538-4ab1-a1fb-7738577d0f6c" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7e747145-aa75-46fd-ba2e-edd6a17d8f39" start_index="0" end="dc259ac9-7538-4ab1-a1fb-7738577d0f6c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7bf2c253-01ca-41cb-ab92-604b79045b29" start_index="0" end="dc259ac9-7538-4ab1-a1fb-7738577d0f6c" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>

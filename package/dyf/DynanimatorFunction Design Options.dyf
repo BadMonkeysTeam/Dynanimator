@@ -1,0 +1,65 @@
+<Workspace Version="0.7.5.3566" X="-51.8391380655227" Y="262.817335350784" zoom="0.809508152173913" Description="Helper function for Dynanimate Design Options" Category="Dynanimator._Functions_" Name="DynanimatorFunction Design Options" ID="989595d8-a07c-4cea-9d72-09c41577b0f8">
+  <Elements>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="be78d512-9c46-4262-ad0e-c024a7a2b94c" nickname="Transaction.End" x="1500" y="135.218333333333" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="1500" y="27.2183333333333" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <DSCoreNodesUI.HigherOrder.ComposeFunctions type="DSCoreNodesUI.HigherOrder.ComposeFunctions" guid="5d351815-51e9-446a-9168-708248c8adec" nickname="Function.Compose" x="1711" y="68.2183333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="577389df-b5eb-4c41-a2a2-5efcccddd21c" nickname="Input" x="895.600624024961" y="232.55998699948" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Directory Path" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" nickname="Input" x="948.705148205928" y="25.8080369214768" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="bb8e544b-b03a-4986-ab45-45e6843c03b8" nickname="Code Block" x="257.316692667707" y="65.5958684347374" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="seq[i];" ShouldFocus="false" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="1a439ac5-b553-452f-a4e2-7db68961701c" nickname="DynanimatorFunctionHelper ExportAsImage" x="1112" y="136.218333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="bb7669fe-ad5b-4448-981e-f6fe505c1464" />
+      <Name value="DynanimatorFunctionHelper ExportAsImage" />
+      <Description value="Exports current iteration step as image" />
+      <Inputs>
+        <Input value="NameSuffix (opt)" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+      </Inputs>
+      <Outputs>
+        <Output value="[]" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="174ad17a-1bb2-4401-a314-54a5ea23f4cd" nickname="Element.Name" x="472.399375975039" y="199.709903796152" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.Name" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="a2abbe64-ae3d-4284-9960-a34a22b952ca" nickname="Code Block" x="696" y="140.436666666667" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="num + &quot;_&quot; + desopt_name;" ShouldFocus="false" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fdb7edec-40b9-411d-8b48-55218ca05655" nickname="Input" x="83.7129485179408" y="37.3166926677066" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Design Options" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="e198fd62-3c32-4955-9ecb-0e859883ee80" nickname="Input" x="56.4430577223089" y="137.685685127405" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Design Option Index" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="407cb7e9-26bf-452c-97de-85f055f59790" nickname="View.SetDesignOption" x="1121.53079670664" y="26.8457450038819" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="5245ba27-f960-49f4-973d-a2e3a12cb556" />
+      <Name value="View.SetDesignOption" />
+      <Description value="Sets the view to a given design option. PLEASE NOTE: This node is kind of hacky. It does not use the design option settings in the visibility / graphic overrides. Instead it sets the view property &quot;Visible in Option&quot; to *one* specific design option - which also means that the symbolic representation of this view is only visible in views that display the given design options." />
+      <Inputs>
+        <Input value="View(s)" />
+        <Input value="DesignOptions(s)" />
+      </Inputs>
+      <Outputs>
+        <Output value="View(s)" />
+        <Output value="Success" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="be78d512-9c46-4262-ad0e-c024a7a2b94c" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="393f6092-449d-456d-bf2d-05a3ef128cb0" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="577389df-b5eb-4c41-a2a2-5efcccddd21c" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="407cb7e9-26bf-452c-97de-85f055f59790" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bb8e544b-b03a-4986-ab45-45e6843c03b8" start_index="0" end="174ad17a-1bb2-4401-a314-54a5ea23f4cd" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bb8e544b-b03a-4986-ab45-45e6843c03b8" start_index="0" end="407cb7e9-26bf-452c-97de-85f055f59790" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1a439ac5-b553-452f-a4e2-7db68961701c" start_index="0" end="be78d512-9c46-4262-ad0e-c024a7a2b94c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="174ad17a-1bb2-4401-a314-54a5ea23f4cd" start_index="0" end="a2abbe64-ae3d-4284-9960-a34a22b952ca" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a2abbe64-ae3d-4284-9960-a34a22b952ca" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="fdb7edec-40b9-411d-8b48-55218ca05655" start_index="0" end="bb8e544b-b03a-4986-ab45-45e6843c03b8" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e198fd62-3c32-4955-9ecb-0e859883ee80" start_index="0" end="bb8e544b-b03a-4986-ab45-45e6843c03b8" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e198fd62-3c32-4955-9ecb-0e859883ee80" start_index="0" end="a2abbe64-ae3d-4284-9960-a34a22b952ca" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="407cb7e9-26bf-452c-97de-85f055f59790" start_index="0" end="393f6092-449d-456d-bf2d-05a3ef128cb0" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
