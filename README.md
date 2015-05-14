@@ -18,9 +18,9 @@ This package was developed for animating several aspects of a Revit model:
 - **Element surface color**
 - **Camera (and target) position of perspective views**
 - **Phases**
+- **Design Options** [coming soon]
 - [Displacement sets [under review]](https://github.com/BadMonkeysInc/Dynanimator/issues/3)
 - [Sun position [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/17)
-- [Design Options [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/14)
 - [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
 - **Combinations of the above** [[partially done](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations#combine-multiple-techniques)] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
 - ...
