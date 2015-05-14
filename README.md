@@ -12,21 +12,22 @@ Follow the links below to see some animations created using Dynanimator:
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
-- **Element parameters** [done]
-- **Element transparency** [done]
-- **Element surface color** [done]
-- **Camera (and target) position of perspective views** [done]
-- **Phases** [done]
+- **Element parameters**
+- **Element transparency**
+- **Element surface color**
+- **Camera (and target) position of perspective views**
+- **Phases**
 - [Displacement sets [under review]](https://github.com/BadMonkeysInc/Dynanimator/issues/3)
 - [Sun position [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/17)
 - [Design Options [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/14)
+- [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
 - **Combinations of the above** [partially done] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
 - ...
 
 The results could be exported in a number of formats:
-- **Images** [done]
-- Revit models [planned]
-- SAT files [planned]
+- **Images**
+- [Revit models [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/13)
+- [SAT files [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/12)
 - ...
 
 We are also thinking about connecting Dynanimator with other functionalities like cloud rendering etc.
