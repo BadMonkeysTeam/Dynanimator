@@ -1,5 +1,5 @@
 #Dynanimator
-An animation package for the Dynamo visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com).
+An animation package for the [Dynamo](https://github.com/DynamoDS/Dynamo) visual programming environment, developed as part of the [Dynamo Hackathon](https://www.hackerleague.org/hackathons/autodesk-university-2014-dynamo-hackathon) at [Autodesk University 2014](http://au.autodesk.com).
 
 ![Sample Animation](sample_animations/Phases And Camera Position With Fixed Target.gif)
 
