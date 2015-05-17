@@ -13,18 +13,18 @@ Follow the links below to see some animations created using Dynanimator:
 
 ##Project Goals
 This package was developed for animating several aspects of a Revit model:
-- **Element parameters**
-- **Element transparency**
-- **Element surface color**
 - **Camera (and target) position of perspective views**
-- **Phases**
 - **Design options**
+- **Element parameters**
+- **Element surface color**
+- **Element transparency**
+- **Phases**
 - **Solar studies**
 - [Displacement sets [under review]](https://github.com/BadMonkeysInc/Dynanimator/issues/3)
 - [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
-- Solar radiation analyses [planned]
 - Illuminance renderings [planned]
 - Photorealistic renderings [planned]
+- Solar radiation analyses [planned]
 - **Combinations of the above** [[partially done](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations#combine-multiple-techniques)] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
 - ...
 
