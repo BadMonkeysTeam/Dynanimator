@@ -1,6 +1,6 @@
 <Workspace Version="0.7.5.3566" X="103.67580815709" Y="148.91913331019" zoom="0.770516848202245" Description="Sets a parameter value for each iteration step" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper Numeric Parameter" ID="f8b694f6-e07e-4d79-8f8c-9866348387c6">
   <Elements>
-    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="1c289fd6-0f4a-48c8-9e9d-264b88abf580" nickname="Code Block" x="201.781070847654" y="171.596619593549" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="min + (max-min)/n*iteration;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="1c289fd6-0f4a-48c8-9e9d-264b88abf580" nickname="Code Block" x="201.781070847654" y="171.596619593549" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="min + (max-min)/(n-1)*iteration;" ShouldFocus="false" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="3261f382-c2c6-4ed6-91a1-e20b80531e14" nickname="Element.SetParameterByName" x="644.552316480188" y="0" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.SetParameterByName@string,var" />
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fb396b35-17b9-4415-9d66-afe19a0b1d70" nickname="Input" x="0" y="450" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Iteration" />
@@ -23,11 +23,15 @@
     <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="f04359f4-9380-48f9-b6da-a5b71739e5d7" nickname="Output" x="1105.28427693411" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Elements" />
     </Dynamo.Nodes.Output>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="1e62c969-414c-4921-8ec1-2c91b230d4e1" nickname="Output" x="227.473944835376" y="449.736021578374" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Iteration" />
+    </Dynamo.Nodes.Output>
   </Elements>
   <Connectors>
     <Dynamo.Models.ConnectorModel start="1c289fd6-0f4a-48c8-9e9d-264b88abf580" start_index="0" end="3261f382-c2c6-4ed6-91a1-e20b80531e14" end_index="2" portType="0" />
     <Dynamo.Models.ConnectorModel start="3261f382-c2c6-4ed6-91a1-e20b80531e14" start_index="0" end="f04359f4-9380-48f9-b6da-a5b71739e5d7" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="fb396b35-17b9-4415-9d66-afe19a0b1d70" start_index="0" end="1c289fd6-0f4a-48c8-9e9d-264b88abf580" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="fb396b35-17b9-4415-9d66-afe19a0b1d70" start_index="0" end="1e62c969-414c-4921-8ec1-2c91b230d4e1" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="94828ebf-8816-4314-b337-d69488fbff9e" start_index="0" end="1c289fd6-0f4a-48c8-9e9d-264b88abf580" end_index="2" portType="0" />
     <Dynamo.Models.ConnectorModel start="0ebaa578-0442-41b2-a039-8a621f58ed1a" start_index="0" end="3261f382-c2c6-4ed6-91a1-e20b80531e14" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="63288f66-1f30-4f22-906d-2d7b4d0e50b4" start_index="0" end="3261f382-c2c6-4ed6-91a1-e20b80531e14" end_index="1" portType="0" />
