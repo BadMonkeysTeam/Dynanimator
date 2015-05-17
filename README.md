@@ -33,8 +33,6 @@ The results could be exported in a number of formats:
 - [Revit models [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/13)
 - [SAT files [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/12)
 - ...
-
-We are also thinking about connecting Dynanimator with other functionalities like cloud rendering etc.
  
 ##Installation
 This package is available through Dynamo's package manager, so installation is quite simple - just use Dynamo's built-in package manager and search for ```Dynanimator```.
