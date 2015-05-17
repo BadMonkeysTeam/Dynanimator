@@ -1,0 +1,53 @@
+<Workspace Version="0.7.5.3566" X="-9" Y="313.807383627608" zoom="1.02889245585875" Description="Helper function for Dynanimate Solar Study" Category="Dynanimator._Functions_" Name="DynanimatorFunction Solar Study" ID="bbd4461e-dd26-40dd-8187-5e97aba98131">
+  <Elements>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="581" y="166.978159126365" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="577389df-b5eb-4c41-a2a2-5efcccddd21c" nickname="Input" x="572.460218408736" y="98.1638065522621" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Directory Path" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" nickname="Input" x="106.911076443058" y="168" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="1a439ac5-b553-452f-a4e2-7db68961701c" nickname="DynanimatorFunctionHelper ExportAsImage" x="792" y="44.9999999999999" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="bb7669fe-ad5b-4448-981e-f6fe505c1464" />
+      <Name value="DynanimatorFunctionHelper ExportAsImage" />
+      <Description value="Exports current iteration step as image" />
+      <Inputs>
+        <Input value="NameSuffix (opt)" />
+        <Input value="Directory Path" />
+        <Input value="View" />
+      </Inputs>
+      <Outputs>
+        <Output value="[]" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="e198fd62-3c32-4955-9ecb-0e859883ee80" nickname="Input" x="87.4726989079563" y="46.0951638065522" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Iteration" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="e01d2f63-6685-499a-9845-85839131feb1" nickname="View.SetSolarStudyActiveFrameNumber" x="262.764430577223" y="168.921996879875" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="44b96822-f49c-4768-89ac-e3e4f62d5e59" />
+      <Name value="View.SetSolarStudyActiveFrameNumber" />
+      <Description value="Sets the active frame number of the solar study in a given view" />
+      <Inputs>
+        <Input value="View" />
+        <Input value="Frame number" />
+      </Inputs>
+      <Outputs>
+        <Output value="View" />
+        <Output value="Success?" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="b9b19844-8fcf-4389-8350-c9062f70b749" nickname="Output" x="1161.53354134165" y="44.0280811232449" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="func" />
+    </Dynamo.Nodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="393f6092-449d-456d-bf2d-05a3ef128cb0" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="577389df-b5eb-4c41-a2a2-5efcccddd21c" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9ab12755-0e4c-47e4-b7c0-ebb73be1fc34" start_index="0" end="e01d2f63-6685-499a-9845-85839131feb1" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1a439ac5-b553-452f-a4e2-7db68961701c" start_index="0" end="b9b19844-8fcf-4389-8350-c9062f70b749" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e198fd62-3c32-4955-9ecb-0e859883ee80" start_index="0" end="e01d2f63-6685-499a-9845-85839131feb1" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e198fd62-3c32-4955-9ecb-0e859883ee80" start_index="0" end="1a439ac5-b553-452f-a4e2-7db68961701c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e01d2f63-6685-499a-9845-85839131feb1" start_index="0" end="393f6092-449d-456d-bf2d-05a3ef128cb0" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>

@@ -1,0 +1,25 @@
+<Workspace Version="0.7.5.3566" X="79.1483125" Y="-48.41005" zoom="1.33823125" Description="" Category="" Name="Home">
+  <Elements>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="40d32b53-2318-4bd9-a731-bf6705151d13" nickname="Views" x="63" y="334.5" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="57:From Yard (Solar Study)" />
+    <DSCore.File.Directory type="DSCore.File.Directory" guid="e9080cd4-fc5c-428f-b96c-6d0213683552" nickname="Directory Path" x="166" y="220.5" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\temp</System.String>
+    </DSCore.File.Directory>
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="43e2f2d3-367b-437a-b4e0-632acd6b12c2" nickname="Dynanimate Solar Study (As Image)" x="338.527860935843" y="252.637146980389" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="3ddbf125-c7d1-4734-a357-7624c654d760" />
+      <Name value="Dynanimate Solar Study (As Image)" />
+      <Description value="Animates the phases of a project in a given view." />
+      <Inputs>
+        <Input value="Directory Path" />
+        <Input value="View" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="40d32b53-2318-4bd9-a731-bf6705151d13" start_index="0" end="43e2f2d3-367b-437a-b4e0-632acd6b12c2" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e9080cd4-fc5c-428f-b96c-6d0213683552" start_index="0" end="43e2f2d3-367b-437a-b4e0-632acd6b12c2" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
