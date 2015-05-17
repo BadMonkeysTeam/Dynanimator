@@ -1,45 +1,43 @@
-<Workspace Version="0.7.5.3566" X="224.215698643745" Y="261.274129760562" zoom="0.501815889224762" Description="Helper function for Dynanimate Element Color" Category="Dynanimator._Functions_" Name="DynanimatorFunction Element Color" ID="2652c87d-a98b-437a-9a66-192bfba78696">
+<Workspace Version="0.7.5.3566" X="155.902862714509" Y="172.448925921615" zoom="0.819844343204252" Description="Helper function for Dynanimate Element Color" Category="Dynanimator._Functions_" Name="DynanimatorFunction Element Color" ID="2652c87d-a98b-437a-9a66-192bfba78696">
   <Elements>
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="be78d512-9c46-4262-ad0e-c024a7a2b94c" nickname="Transaction.End" x="1013.15053124402" y="18.6074532463857" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="1010.92776941943" y="-86.9796785010203" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="175.569537012945" y="-213.500172096247" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="609" y="208" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Iteration" />
     </Dynamo.Nodes.Symbol>
-    <DSCoreNodesUI.HigherOrder.ComposeFunctions type="DSCoreNodesUI.HigherOrder.ComposeFunctions" guid="5d351815-51e9-446a-9168-708248c8adec" nickname="Function.Compose" x="1204.3205053014" y="-51.1046935109148" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" nickname="Input" x="139.569537012945" y="-142.921338527981" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" nickname="Input" x="0" y="83" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Total Iterations" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="5bea28fc-822f-4013-9e11-a9c627f2a89a" nickname="Input" x="143.569537012945" y="139.393995745086" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="5bea28fc-822f-4013-9e11-a9c627f2a89a" nickname="Input" x="0" y="334" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Directory Path" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="4b1caf1d-777e-4d0d-a7f4-c63eb01f2d79" nickname="Input" x="171.569537012945" y="-72.342504959714" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="4b1caf1d-777e-4d0d-a7f4-c63eb01f2d79" nickname="Input" x="0" y="167" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Elements" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="623fcbcf-ed9b-463c-afff-14eb75c893bf" nickname="Input" x="163.569537012945" y="-1.7636713914475" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="623fcbcf-ed9b-463c-afff-14eb75c893bf" nickname="Input" x="0" y="250" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="Start Color" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="37b3b119-b65f-4b3b-9f6a-7f91e253dfb1" nickname="Input" x="168.569537012945" y="68.815162176819" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="37b3b119-b65f-4b3b-9f6a-7f91e253dfb1" nickname="Input" x="0" y="417" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="End Color" />
     </Dynamo.Nodes.Symbol>
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="5bfd24cb-1392-493e-a045-78de968d8607" nickname="Document.ActiveView" x="303.67989369378" y="209.972829313352" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Application.Document.ActiveView" />
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="b58d6f77-1cc2-4f78-8ffa-f0a26fd1b2e5" nickname="Document.Current" x="133.569537012945" y="209.972829313352" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Application.Document.Current" />
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="f54494dd-41db-47c4-ba25-a9f00b8927d6" nickname="DynanimatorFunctionHelper ExportAsImage" x="540.291332705581" y="65.2943159359619" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="5bfd24cb-1392-493e-a045-78de968d8607" nickname="Document.ActiveView" x="609" y="318" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Application.Document.ActiveView" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="b58d6f77-1cc2-4f78-8ffa-f0a26fd1b2e5" nickname="Document.Current" x="0" y="500" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Application.Document.Current" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="f54494dd-41db-47c4-ba25-a9f00b8927d6" nickname="DynanimatorFunctionHelper ExportAsImage" x="863" y="237" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="bb7669fe-ad5b-4448-981e-f6fe505c1464" />
       <Name value="DynanimatorFunctionHelper ExportAsImage" />
-      <Description value="Exports Current Iteration Step as Image" />
+      <Description value="Exports current iteration step as image" />
       <Inputs>
         <Input value="NameSuffix (opt)" />
         <Input value="Directory Path" />
-        <Input value="view" />
+        <Input value="View" />
       </Inputs>
       <Outputs>
         <Output value="[]" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="a125dee1-e848-45f5-9368-0489ed10bcbf" nickname="DynanimatorFunctionHelper Element Color" x="541.527993875878" y="-154.84472098143" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="a125dee1-e848-45f5-9368-0489ed10bcbf" nickname="DynanimatorFunctionHelper Element Color" x="228" y="182" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="459dfbab-36a7-4521-9371-4f757b0fb73f" />
       <Name value="DynanimatorFunctionHelper Element Color" />
-      <Description value="Gives back the Color for each Iteration Step" />
+      <Description value="Sets the element color for each iteration step" />
       <Inputs>
         <Input value="Iteration" />
         <Input value="Total Iterations" />
@@ -48,14 +46,16 @@
         <Input value="End Color" />
       </Inputs>
       <Outputs>
-        <Output value="Element" />
+        <Output value="Elements" />
+        <Output value="Iteration" />
       </Outputs>
     </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="d2648923-deb2-43ab-94fb-afdff52df3b5" nickname="Output" x="1251" y="237" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="func" />
+    </Dynamo.Nodes.Output>
   </Elements>
   <Connectors>
-    <Dynamo.Models.ConnectorModel start="be78d512-9c46-4262-ad0e-c024a7a2b94c" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="1" portType="0" />
-    <Dynamo.Models.ConnectorModel start="393f6092-449d-456d-bf2d-05a3ef128cb0" start_index="0" end="5d351815-51e9-446a-9168-708248c8adec" end_index="0" portType="0" />
-    <Dynamo.Models.ConnectorModel start="dd9fdaff-303f-48b3-b380-7bf31f55ab00" start_index="0" end="f54494dd-41db-47c4-ba25-a9f00b8927d6" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="393f6092-449d-456d-bf2d-05a3ef128cb0" start_index="0" end="f54494dd-41db-47c4-ba25-a9f00b8927d6" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="dd9fdaff-303f-48b3-b380-7bf31f55ab00" start_index="0" end="a125dee1-e848-45f5-9368-0489ed10bcbf" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="ab9f81c6-bb0d-4469-8e5b-6ce89f8f7f8a" start_index="0" end="a125dee1-e848-45f5-9368-0489ed10bcbf" end_index="1" portType="0" />
     <Dynamo.Models.ConnectorModel start="5bea28fc-822f-4013-9e11-a9c627f2a89a" start_index="0" end="f54494dd-41db-47c4-ba25-a9f00b8927d6" end_index="1" portType="0" />
@@ -64,8 +64,8 @@
     <Dynamo.Models.ConnectorModel start="37b3b119-b65f-4b3b-9f6a-7f91e253dfb1" start_index="0" end="a125dee1-e848-45f5-9368-0489ed10bcbf" end_index="4" portType="0" />
     <Dynamo.Models.ConnectorModel start="5bfd24cb-1392-493e-a045-78de968d8607" start_index="0" end="f54494dd-41db-47c4-ba25-a9f00b8927d6" end_index="2" portType="0" />
     <Dynamo.Models.ConnectorModel start="b58d6f77-1cc2-4f78-8ffa-f0a26fd1b2e5" start_index="0" end="5bfd24cb-1392-493e-a045-78de968d8607" end_index="0" portType="0" />
-    <Dynamo.Models.ConnectorModel start="f54494dd-41db-47c4-ba25-a9f00b8927d6" start_index="0" end="be78d512-9c46-4262-ad0e-c024a7a2b94c" end_index="0" portType="0" />
-    <Dynamo.Models.ConnectorModel start="a125dee1-e848-45f5-9368-0489ed10bcbf" start_index="0" end="393f6092-449d-456d-bf2d-05a3ef128cb0" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="f54494dd-41db-47c4-ba25-a9f00b8927d6" start_index="0" end="d2648923-deb2-43ab-94fb-afdff52df3b5" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a125dee1-e848-45f5-9368-0489ed10bcbf" start_index="1" end="393f6092-449d-456d-bf2d-05a3ef128cb0" end_index="0" portType="0" />
   </Connectors>
   <Notes />
 </Workspace>
