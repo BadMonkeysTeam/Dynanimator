@@ -24,10 +24,10 @@
       <Symbol value="Elements" />
     </Dynamo.Nodes.Symbol>
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="e87bf689-43ed-4d60-aa28-576bd4a2c338" nickname="Input" x="0" y="168" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
-      <Symbol value="Min Param Value" />
+      <Symbol value="Min Transparency" />
     </Dynamo.Nodes.Symbol>
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="fc642ef3-a88e-44ac-b64e-d62175875267" nickname="Input" x="0" y="251.563333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
-      <Symbol value="Max Param Value" />
+      <Symbol value="Max Transparency" />
     </Dynamo.Nodes.Symbol>
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="a2fe0f41-0ca7-4762-9a03-04c12706f82a" nickname="Input" x="0" y="84" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <Symbol value="View" />
