@@ -11,7 +11,7 @@ Follow the links below to see some animations created using Dynanimator:
 - [Dynam(o)ite Your Design goes … D-I-S-C-O](https://revitbeyondbim.wordpress.com/2015/05/05/dynamoite-your-design-goes-d-i-s-c-o/) (Animation of parameter values by Dieter Vermeulen)
 - [Dynam(o)ite Your Design with Dynanimator](https://revitbeyondbim.wordpress.com/2015/05/07/dynamoite-your-design-with-dynanimator/) (Animation of camera path by Dieter Vermeulen)
 
-##Project Goals
+##Features
 This package was developed for animating several aspects of a Revit model:
 - **Camera (and target) position of perspective views**
 - **Design options**
@@ -39,7 +39,7 @@ This package is available through Dynamo's package manager, so installation is q
 Please note that this package has dependencies - currently, during installation it will also install the [Clockwork](https://github.com/CAAD-RWTH/ClockworkForDynamo) package. There may be more dependencies in the future.
 
 ##Collaborate
-If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/BadMonkeysInc/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). Best start buy reading our [guide on how to build your own Dynanimator nodes](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
+If you want to animate other parts of a Revit model using Dynamo, please contact us - either by [creating a feature request](https://github.com/BadMonkeysInc/Dynanimator/issues) or (better yet) by [forking this repository](https://help.github.com/articles/fork-a-repo/) and adding your code via [pull request](https://help.github.com/articles/using-pull-requests/). Best start by reading our [guide on how to build your own Dynanimator nodes](https://github.com/BadMonkeysInc/Dynanimator/wiki/How-To-Make-a-New-Dynanimator-Node).
 
 ##Team
 ###Original Project Team
