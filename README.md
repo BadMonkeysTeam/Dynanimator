@@ -46,4 +46,4 @@ If you want to animate other parts of a Revit model using Dynamo, please contact
 - [Andreas Dieckmann](https://github.com/andydandy74) (original Hackathon team member)
 - [Fabian Ritter](https://github.com/redinkinc) (contributor)
 - [Ian Siegel](https://github.com/IanSiegelKPF) (original Hackathon team member)
-- [Håvard Vasshaug](https://github.com/vasshaug) (project lead, original Hackathon team member))
+- [Håvard Vasshaug](https://github.com/vasshaug) (project lead, original Hackathon team member)
