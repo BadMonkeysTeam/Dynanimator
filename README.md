@@ -22,14 +22,13 @@ This package was developed for animating several aspects of a Revit model:
 - **Solar studies**
 - [Displacement sets [under review]](https://github.com/BadMonkeysInc/Dynanimator/issues/3)
 - [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
-- [Illuminance renderings [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/23)
-- [Photorealistic renderings [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/24)
 - [Solar radiation analyses [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/16)
 - **Combinations of the above** [[partially done](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations#combine-multiple-techniques)] - Post wishes for other combinations [here](https://github.com/BadMonkeysInc/Dynanimator/issues/4)
 - ...
 
 The results could be exported in a number of formats:
 - **Images**
+- [Photorealistic/Illuminance Cloud Rendering [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/24)
 - [Revit models [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/13)
 - [SAT files [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/12)
 - ...
