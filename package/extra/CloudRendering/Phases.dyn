@@ -1,0 +1,37 @@
+<Workspace Version="0.7.5.3566" X="189.213051823416" Y="30" zoom="1.41842610364683" Description="" Category="" Name="Home">
+  <Elements>
+    <DSRevitNodesUI.Views type="DSRevitNodesUI.Views" guid="0eb69129-ef5c-4758-a290-c1a98e10890f" nickname="Views" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="17:From Yard" />
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" nickname="Dynanimate Phases (As CloudRendering)" x="299" y="172" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="0817b149-40d6-4f28-b48d-bcac631ca85b" />
+      <Name value="Dynanimate Phases (As CloudRendering)" />
+      <Description value="Animates the phases of a project in a given view." />
+      <Inputs>
+        <Input value="View" />
+        <Input value="Width" />
+        <Input value="Height" />
+        <Input value="RenderType" />
+        <Input value="RenderQuality" />
+        <Input value="emailMe" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="4782c4c2-1c27-47f6-9c96-8144650a1743" nickname="Code Block" x="0" y="83.2183333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1280;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="69eadb9b-f729-438e-927b-cb72bd62f804" nickname="Code Block" x="0" y="192.218333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="720;" ShouldFocus="false" />
+    <Analyze.Render.RenderTypeDropDown type="Analyze.Render.RenderTypeDropDown" guid="8188feca-e0ca-4c4a-9f49-0ae7abc098d5" nickname="Select RenderType" x="0" y="302" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="0:Image" />
+    <Analyze.Render.RenderQualityDropDown type="Analyze.Render.RenderQualityDropDown" guid="aefc37a1-c29b-42d3-9faa-44ac4ded55ef" nickname="Select RenderQuality" x="0" y="385" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="1:High" />
+    <DSCoreNodesUI.BoolSelector type="DSCoreNodesUI.BoolSelector" guid="730747c0-3994-4e43-a461-1767fbb630ed" nickname="Boolean" x="0" y="468" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Boolean>False</System.Boolean>
+    </DSCoreNodesUI.BoolSelector>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="0eb69129-ef5c-4758-a290-c1a98e10890f" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="4782c4c2-1c27-47f6-9c96-8144650a1743" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="69eadb9b-f729-438e-927b-cb72bd62f804" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8188feca-e0ca-4c4a-9f49-0ae7abc098d5" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="aefc37a1-c29b-42d3-9faa-44ac4ded55ef" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="730747c0-3994-4e43-a461-1767fbb630ed" start_index="0" end="c2b9d3ec-622d-49d3-a55e-43e5cb8caa1f" end_index="5" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>

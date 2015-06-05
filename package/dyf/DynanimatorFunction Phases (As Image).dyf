@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="122.725511269478" Y="231.918257211481" zoom="0.701038093201185" Description="Helper function for Dynanimate Phases" Category="Dynanimator._Functions_" Name="DynanimatorFunction Phases" ID="578bb0ef-e4f1-4d49-bd0a-68e7ac9a0b05">
+<Workspace Version="0.7.5.3566" X="122.725511269478" Y="231.918257211481" zoom="0.701038093201185" Description="Helper function for Dynanimate Phases" Category="Dynanimator._Functions_.ImageExport" Name="DynanimatorFunction Phases (As Image)" ID="578bb0ef-e4f1-4d49-bd0a-68e7ac9a0b05">
   <Elements>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="903.741388586652" y="311.083078958348" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="577389df-b5eb-4c41-a2a2-5efcccddd21c" nickname="Input" x="895.600624024961" y="232.55998699948" isVisible="true" isUpstreamVisible="true" lacing="Disabled">

@@ -1,6 +1,6 @@
-<Workspace Version="0.7.5.3566" X="30" Y="286.874814675683" zoom="0.839218632607062" Description="Sets the camera eye position for each iteration step" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper Camera Position With Fixed Target" ID="9f0e63c6-328d-42be-93ba-fc59beb24566">
+<Workspace Version="0.7.5.3566" X="30" Y="286.874814675683" zoom="0.839218632607062" Description="Sets the camera eye position for each iteration step" Category="Dynanimator._Helpers_.ModelAlteration" Name="DynanimatorFunctionHelper Camera Position With Fixed Target" ID="9f0e63c6-328d-42be-93ba-fc59beb24566">
   <Elements>
-    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="37fa9974-59b0-4637-a197-dcb4600ee9fe" nickname="Code Block" x="224" y="183.218333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1/n*iteration;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="37fa9974-59b0-4637-a197-dcb4600ee9fe" nickname="Code Block" x="224" y="183.218333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1/(n-1)*iteration;" ShouldFocus="false" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="34f06449-d51c-4f75-985d-18eba2ddd333" nickname="Curve.PointAtParameter" x="539" y="153" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Curve.PointAtParameter@double">
       <PortInfo index="1" default="True" />
     </Dynamo.Nodes.DSFunction>

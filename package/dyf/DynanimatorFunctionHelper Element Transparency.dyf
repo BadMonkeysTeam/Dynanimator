@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="30" Y="211.953683498647" zoom="1.00721370604148" Description="Sets the element transparency for each iteration step" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper Element Transparency" ID="e72e2801-ce96-4a2b-8f56-d87dd6bd3873">
+<Workspace Version="0.7.5.3566" X="30" Y="211.953683498647" zoom="1.00721370604148" Description="Sets the element transparency for each iteration step" Category="Dynanimator._Helpers_.ModelAlteration" Name="DynanimatorFunctionHelper Element Transparency" ID="e72e2801-ce96-4a2b-8f56-d87dd6bd3873">
   <Elements>
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="67d2f100-e058-45c6-815c-4ac9c22d7166" nickname="Code Block" x="253.885407341092" y="268.788610862429" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="min + (max-min)/(n-1)*iteration;" ShouldFocus="false" />
     <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="dd1c9775-9feb-4de3-8588-5d9c03751193" nickname="Element.OverrideTransparencyInView" x="669" y="115.272157564906" isVisible="true" isUpstreamVisible="true" lacing="Disabled">

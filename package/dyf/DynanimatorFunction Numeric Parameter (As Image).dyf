@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="141.87765600624" Y="143.68292300442" zoom="0.817958333333333" Description="Helper function for Dynanimate Numeric Parameter" Category="Dynanimator._Functions_" Name="DynanimatorFunction Numeric Parameter" ID="0e7adf7f-ccda-4eae-9c86-6713dcb83dcd">
+<Workspace Version="0.7.5.3566" X="141.87765600624" Y="143.68292300442" zoom="0.817958333333333" Description="Helper function for Dynanimate Numeric Parameter" Category="Dynanimator._Functions_.ImageExport" Name="DynanimatorFunction Numeric Parameter (As Image)" ID="0e7adf7f-ccda-4eae-9c86-6713dcb83dcd">
   <Elements>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="655" y="252" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="dd9fdaff-303f-48b3-b380-7bf31f55ab00" nickname="Input" x="1.22255616117366" y="95.359380571545" isVisible="true" isUpstreamVisible="true" lacing="Disabled">

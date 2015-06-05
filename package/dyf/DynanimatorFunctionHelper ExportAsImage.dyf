@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="439.475561334614" Y="297.808475787498" zoom="0.915562285281227" Description="Exports current iteration step as image" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper ExportAsImage" ID="bb7669fe-ad5b-4448-981e-f6fe505c1464">
+<Workspace Version="0.7.5.3566" X="439.475561334614" Y="297.808475787498" zoom="0.915562285281227" Description="Exports current iteration step as image" Category="Dynanimator._Helpers_.Export" Name="DynanimatorFunctionHelper ExportAsImage" ID="bb7669fe-ad5b-4448-981e-f6fe505c1464">
   <Elements>
     <Dynamo.Nodes.DSVarArgFunction type="Dynamo.Nodes.DSVarArgFunction" guid="be2a198e-5cf9-4946-a668-925de9994c4a" nickname="String.Concat" x="492.189559514794" y="27.2635834784435" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.String.Concat@string[]" inputcount="6" />
     <Dynamo.Nodes.StringInput type="Dynamo.Nodes.StringInput" guid="4a71391d-3efd-41f4-8528-2fae527deb1a" nickname="String" x="332.898092884313" y="289.689360706571" isVisible="true" isUpstreamVisible="true" lacing="Disabled">

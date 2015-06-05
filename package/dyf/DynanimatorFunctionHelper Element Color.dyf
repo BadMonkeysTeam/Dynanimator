@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="30" Y="271.054722451223" zoom="0.92085737840066" Description="Sets the element color for each iteration step" Category="Dynanimator._Helpers_" Name="DynanimatorFunctionHelper Element Color" ID="459dfbab-36a7-4521-9371-4f757b0fb73f">
+<Workspace Version="0.7.5.3566" X="30" Y="271.054722451223" zoom="0.92085737840066" Description="Sets the element color for each iteration step" Category="Dynanimator._Helpers_.ModelAlteration" Name="DynanimatorFunctionHelper Element Color" ID="459dfbab-36a7-4521-9371-4f757b0fb73f">
   <Elements>
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="f93eeedc-e781-456b-bab3-6a3a08339205" nickname="Code Block" x="218.570277529096" y="294.781448821247" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1/(n-1)*iteration;" ShouldFocus="false" />
     <DSCoreNodesUI.ColorRange type="DSCoreNodesUI.ColorRange" guid="eb87f80b-1422-45e0-8440-c111c2b7daaa" nickname="Color Range" x="539" y="143" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
