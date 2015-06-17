@@ -29,7 +29,7 @@ This package was developed for animating several aspects of a Revit model:
 
 The results could be exported in a number of formats:
 - **Images**
-- **Photorealistic/Illuminance Cloud Rendering**
+- **Photorealistic/Illuminance Cloud Renderings**
 - [Revit models [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/13)
 - [SAT files [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/12)
 - ...
