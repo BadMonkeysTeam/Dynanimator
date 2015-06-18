@@ -20,7 +20,7 @@ This package was developed for animating several aspects of a Revit model:
 - **Element transparency**
 - **Phases**
 - **Solar studies**
-- Analysis data [[partially done](https://github.com/BadMonkeysInc/Dynanimator/wiki/Sample-Animations#face-analysis-display)]
+- [Analysis data [partially done](https://github.com/BadMonkeysInc/Dynanimator/issues/25)]
 - [Displacement sets [under review]](https://github.com/BadMonkeysInc/Dynanimator/issues/3)
 - [Family parameters [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/18)
 - [Solar radiation analyses [planned]](https://github.com/BadMonkeysInc/Dynanimator/issues/16)
