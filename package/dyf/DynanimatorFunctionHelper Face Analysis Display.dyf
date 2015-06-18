@@ -1,0 +1,47 @@
+<Workspace Version="0.7.5.3566" X="80.3661844484629" Y="30" zoom="1.26401446654611" Description="Updates the face analysis display for each iteration step" Category="Dynanimator._Helpers_.ModelAlteration" Name="DynanimatorFunctionHelper Face Analysis Display" ID="8c493e9c-5803-440a-b895-ab6053fc3cc6">
+  <Elements>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="4649748a-df9a-4ee8-b116-1c66ed463256" nickname="FaceAnalysisDisplay.ByViewFacePointsAndValues" x="235" y="178" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.AnalysisDisplay.FaceAnalysisDisplay.ByViewFacePointsAndValues@Revit.Elements.Views.View,Autodesk.DesignScript.Geometry.Surface,Autodesk.DesignScript.Geometry.UV[],double[],string,string,System.Type">
+      <PortInfo index="4" default="True" />
+      <PortInfo index="5" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="47660b5c-16c4-4098-a527-b79fffa33e6a" nickname="Input" x="0" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="8f184a54-9c95-442b-bef0-cffe012a854f" nickname="Input" x="0" y="83" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Surface" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="b0b92106-8ae6-4863-805a-1e3eedd48663" nickname="Input" x="0" y="167" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="SampleLocations" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="41fdb4c6-7837-4441-8b75-979071a36e57" nickname="Input" x="0" y="250" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Samples" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="82e75b2e-29c2-4c01-9832-4d315aedc722" nickname="Input" x="0" y="333" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Name" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="1464170c-8a28-4b68-8508-8d267837b5f2" nickname="Input" x="0" y="417" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="Description" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="f37f277e-7d3b-46d4-829b-f8bb1d1fbed2" nickname="Input" x="0" y="500" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="UnitType" />
+    </Dynamo.Nodes.Symbol>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="3cac8395-d528-418d-a135-a081173a23b2" nickname="Output" x="653" y="178" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="FaceAnalysisDisplay" />
+    </Dynamo.Nodes.Output>
+    <Dynamo.Nodes.Output type="Dynamo.Nodes.Output" guid="2ce17edb-f461-452f-8edd-d06ed51c5992" nickname="Output" x="653" y="94" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="View" />
+    </Dynamo.Nodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="4649748a-df9a-4ee8-b116-1c66ed463256" start_index="0" end="3cac8395-d528-418d-a135-a081173a23b2" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="47660b5c-16c4-4098-a527-b79fffa33e6a" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="47660b5c-16c4-4098-a527-b79fffa33e6a" start_index="0" end="2ce17edb-f461-452f-8edd-d06ed51c5992" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8f184a54-9c95-442b-bef0-cffe012a854f" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="b0b92106-8ae6-4863-805a-1e3eedd48663" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="41fdb4c6-7837-4441-8b75-979071a36e57" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="82e75b2e-29c2-4c01-9832-4d315aedc722" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1464170c-8a28-4b68-8508-8d267837b5f2" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="f37f277e-7d3b-46d4-829b-f8bb1d1fbed2" start_index="0" end="4649748a-df9a-4ee8-b116-1c66ed463256" end_index="6" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
