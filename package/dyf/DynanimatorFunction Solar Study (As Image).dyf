@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="-9" Y="313.807383627608" zoom="1.02889245585875" Description="Helper function for Dynanimate Solar Study" Category="Dynanimator._Functions_.ImageExport" Name="DynanimatorFunction Solar Study (As Image)" ID="bbd4461e-dd26-40dd-8187-5e97aba98131">
+<Workspace Version="0.7.5.3566" X="-9" Y="313.807383627608" zoom="1.02889245585875" Description="Helper function for Dynanimate Solar Study (As Image)" Category="Dynanimator._Functions_.ImageExport" Name="DynanimatorFunction Solar Study (As Image)" ID="bbd4461e-dd26-40dd-8187-5e97aba98131">
   <Elements>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="393f6092-449d-456d-bf2d-05a3ef128cb0" nickname="Transaction.End" x="581" y="166.978159126365" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Transaction.Transaction.End@var" />
     <Dynamo.Nodes.Symbol type="Dynamo.Nodes.Symbol" guid="577389df-b5eb-4c41-a2a2-5efcccddd21c" nickname="Input" x="572.460218408736" y="98.1638065522621" isVisible="true" isUpstreamVisible="true" lacing="Disabled">

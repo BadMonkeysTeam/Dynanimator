@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="145" Y="150" zoom="1" Description="Animates  a list of design options in a given view." Category="Dynanimator.ImageExport" Name="Dynanimate Design Options (As Image)" ID="12fc4f93-e092-4945-8f92-9a106e67cb25">
+<Workspace Version="0.7.5.3566" X="145" Y="150" zoom="1" Description="Animates a list of design options in a given view." Category="Dynanimator.ImageExport" Name="Dynanimate Design Options (As Image)" ID="12fc4f93-e092-4945-8f92-9a106e67cb25">
   <Elements>
     <DSCore.Map type="DSCore.Map" guid="c04e3b84-4995-4942-9851-b71194e7c847" nickname="List.Map" x="598.436162596258" y="84.160702364235" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="973ed492-60b4-483e-9771-521c0394a90e" nickname="Code Block" x="411.136873875679" y="53" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0..(n-1);" ShouldFocus="false" />
@@ -12,10 +12,10 @@
       <Symbol value="" />
     </Dynamo.Nodes.Output>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="6be69746-f44c-4d16-a3bf-b8cf0fd7c26f" nickname="List.Count" x="240" y="49.5" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.Count@var[]..[]" />
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="d0b046e4-4f3b-4b9e-ba7e-437debdbba66" nickname="DynanimatorFunction Design Options" x="308" y="160.5" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="d0b046e4-4f3b-4b9e-ba7e-437debdbba66" nickname="DynanimatorFunction Design Options (As Image)" x="308" y="160.5" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="989595d8-a07c-4cea-9d72-09c41577b0f8" />
-      <Name value="DynanimatorFunction Design Options" />
-      <Description value="Helper function for Dynanimate Design Options" />
+      <Name value="DynanimatorFunction Design Options (As Image)" />
+      <Description value="Helper function for Dynanimate Design Options (As Image)" />
       <Inputs>
         <Input value="Directory Path" />
         <Input value="View" />
